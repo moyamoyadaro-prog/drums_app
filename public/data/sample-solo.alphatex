@@ -1,0 +1,20 @@
+\title "サンプル・ドラムソロ"
+\subtitle "Drum Solo Studio — 動作確認用"
+\tempo 120
+.
+\track "Drums"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+\articulation Snare 38
+\articulation HH 42
+\articulation OpenHH 46
+\articulation Crash 49
+\articulation Ride 51
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+(Crash Kick).4 HH.8 HH.8 (Snare HH).8 HH.8 |
+(Kick HH).8 HH.8 (Snare HH).8 (Kick HH).8 (Snare HH).8 HH.8 |
+Snare.16 Snare.16 Snare.8 HiTom.8 HiTom.8 MidTom.8 MidTom.8 FloorTom.8 FloorTom.8 |
+(Crash Kick).4 Snare.8 Snare.16 Snare.16 (Kick Ride).8 Ride.8 (Snare Ride).8 Ride.8 |

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#111111" />
+    <title>Drum Solo Studio</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Drum Solo Studio</h1>
+      <span id="status" class="status" role="status">読み込み中…</span>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <h2>ソロ一覧</h2>
+        <ul id="song-list" class="song-list"></ul>
+
+        <details class="paste">
+          <summary>alphaTex を貼り付けて読み込む</summary>
+          <textarea id="tex-input" rows="8" placeholder="\title &quot;Test&quot; ..."></textarea>
+          <button id="load-tex" type="button">この譜面を読み込む</button>
+        </details>
+      </aside>
+
+      <main class="main">
+        <section class="transport">
+          <button id="play" type="button" disabled>▶ 再生 / 一時停止</button>
+          <button id="stop" type="button" disabled>■ 停止</button>
+          <label class="ctrl">
+            テンポ <output id="tempo-out">100%</output>
+            <input id="tempo" type="range" min="25" max="200" step="5" value="100" disabled />
+          </label>
+          <label class="ctrl">
+            <input id="loop" type="checkbox" disabled /> ループ
+          </label>
+        </section>
+
+        <section id="mixer" class="mixer" hidden>
+          <h2>ミキサー（楽器ごと）</h2>
+          <div id="mixer-tracks"></div>
+        </section>
+
+        <div id="at-wrap" class="at-wrap">
+          <div id="at-main"></div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

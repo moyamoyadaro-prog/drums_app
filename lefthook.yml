@@ -1,0 +1,12 @@
+# Git hooks. Runs on `git commit`; blocks the commit if any step fails.
+pre-commit:
+  parallel: false
+  commands:
+    biome:
+      glob: '*.{ts,tsx,js,jsx,json,css,html}'
+      run: npx biome check --write {staged_files}
+      stage_fixed: true
+    typecheck:
+      run: npx tsc --noEmit
+    unit:
+      run: npx vitest run --passWithNoTests
