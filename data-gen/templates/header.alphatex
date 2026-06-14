@@ -1,0 +1,28 @@
+\title "TITLE"
+\subtitle "SUBTITLE"
+\tempo 120
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+\articulation OpenHH 46
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51

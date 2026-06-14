@@ -10,3 +10,6 @@ pre-commit:
       run: npx tsc --noEmit
     unit:
       run: npx vitest run --passWithNoTests
+    data:
+      glob: 'public/data/*.{alphatex,json}'
+      run: npm run data:validate
