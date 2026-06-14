@@ -173,6 +173,76 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.playalong,
+.record {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.playalong h2,
+.record h2 {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.25rem 0;
+}
+
+.playalong-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.4rem 0;
+}
+
+.file-pick,
+.yt-pick {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.yt-pick input {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  min-width: 16rem;
+}
+
+.media-host,
+.yt-host {
+  margin: 0.4rem 0;
+}
+
+.media-host:empty,
+.yt-host:empty {
+  margin: 0;
+}
+
+.media-element {
+  width: 100%;
+  max-height: 40vh;
+  background: #000;
+  border-radius: 6px;
+}
+
+.yt-host iframe {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 6px;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+}
+
 .at-wrap {
   flex: 1;
   overflow: auto;

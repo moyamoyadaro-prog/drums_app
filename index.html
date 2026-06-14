@@ -36,11 +36,44 @@
           <label class="ctrl">
             <input id="loop" type="checkbox" disabled /> ループ
           </label>
+          <label class="ctrl">
+            音量 <output id="master-out">100%</output>
+            <input id="master" type="range" min="0" max="200" step="5" value="100" disabled />
+          </label>
         </section>
 
         <section id="mixer" class="mixer" hidden>
           <h2>ミキサー（楽器ごと）</h2>
           <div id="mixer-tracks"></div>
+        </section>
+
+        <section class="playalong">
+          <h2>同時再生（合わせ叩き）</h2>
+          <div class="playalong-controls">
+            <label class="file-pick">
+              端末内メディア
+              <input id="media-file" type="file" accept="audio/*,video/*" />
+            </label>
+            <button id="media-clear" type="button" disabled>クリア</button>
+          </div>
+          <div id="media-host" class="media-host"></div>
+
+          <div class="playalong-controls">
+            <label class="yt-pick">
+              YouTube URL
+              <input id="yt-url" type="url" placeholder="https://youtu.be/..." inputmode="url" />
+            </label>
+            <button id="yt-load" type="button">読み込み</button>
+            <button id="yt-clear" type="button" disabled>クリア</button>
+          </div>
+          <p class="hint">YouTube は合わせて叩く用です（録音には含まれません）。</p>
+          <div id="yt-host" class="yt-host"></div>
+        </section>
+
+        <section class="record">
+          <h2>ミックス録音</h2>
+          <button id="record" type="button" disabled>● ドラム＋メディアを書き出す (WAV)</button>
+          <span id="record-status" class="hint"></span>
         </section>
 
         <div id="at-wrap" class="at-wrap">

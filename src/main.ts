@@ -1,7 +1,10 @@
 import './style.css';
 import { fetchAlphaTex, fetchManifest } from './dataSource';
+import { LocalMedia } from './media';
 import { DrumPlayer, type TrackInfo } from './player';
+import { downloadBlob, renderMixToWav } from './recorder';
 import type { ManifestItem } from './types';
+import { parseYouTubeId, YouTubePlayer } from './youtube';
 
 function el<T extends HTMLElement>(id: string): T {
   const found = document.getElementById(id);
@@ -18,10 +21,28 @@ const stopBtn = el<HTMLButtonElement>('stop');
 const tempoInput = el<HTMLInputElement>('tempo');
 const tempoOut = el<HTMLOutputElement>('tempo-out');
 const loopInput = el<HTMLInputElement>('loop');
+const masterInput = el<HTMLInputElement>('master');
+const masterOut = el<HTMLOutputElement>('master-out');
 const mixerSection = el('mixer');
 const mixerTracks = el('mixer-tracks');
 
+const mediaFileInput = el<HTMLInputElement>('media-file');
+const mediaClearBtn = el<HTMLButtonElement>('media-clear');
+const ytUrlInput = el<HTMLInputElement>('yt-url');
+const ytLoadBtn = el<HTMLButtonElement>('yt-load');
+const ytClearBtn = el<HTMLButtonElement>('yt-clear');
+const recordBtn = el<HTMLButtonElement>('record');
+const recordStatus = el('record-status');
+
 const player = new DrumPlayer(el('at-main'), el('at-wrap'));
+const media = new LocalMedia(el('media-host'));
+const youtube = new YouTubePlayer(el('yt-host'));
+
+/** Latest known transport position (ms), used to align play-along media on play. */
+let positionMs = 0;
+/** Current tempo factor (1 = original), applied to backing media too. */
+let tempoFactor = 1;
+let scoreReady = false;
 
 function setStatus(message: string, isError = false): void {
   statusEl.textContent = message;
@@ -29,9 +50,10 @@ function setStatus(message: string, isError = false): void {
 }
 
 function setTransportEnabled(enabled: boolean): void {
-  for (const control of [playBtn, stopBtn, tempoInput, loopInput]) {
+  for (const control of [playBtn, stopBtn, tempoInput, loopInput, masterInput]) {
     control.disabled = !enabled;
   }
+  recordBtn.disabled = !enabled;
 }
 
 function renderMixer(tracks: TrackInfo[]): void {
@@ -112,16 +134,98 @@ function wireTransport(): void {
   tempoInput.addEventListener('input', () => {
     const percent = Number(tempoInput.value);
     tempoOut.textContent = `${percent}%`;
-    player.setTempo(percent / 100);
+    tempoFactor = percent / 100;
+    player.setTempo(tempoFactor);
+    media.setRate(tempoFactor);
   });
   loopInput.addEventListener('change', () => player.setLooping(loopInput.checked));
+  masterInput.addEventListener('input', () => {
+    const percent = Number(masterInput.value);
+    masterOut.textContent = `${percent}%`;
+    player.setMasterVolume(percent / 100);
+  });
   loadTexBtn.addEventListener('click', () => {
     const tex = texInput.value.trim();
     if (tex) player.loadTex(tex);
   });
 }
 
+function wirePlayAlong(): void {
+  mediaFileInput.addEventListener('change', () => {
+    const file = mediaFileInput.files?.[0];
+    if (!file) return;
+    media.load(file);
+    media.setRate(tempoFactor);
+    mediaClearBtn.disabled = false;
+  });
+  mediaClearBtn.addEventListener('click', () => {
+    media.clear();
+    mediaFileInput.value = '';
+    mediaClearBtn.disabled = true;
+  });
+
+  ytLoadBtn.addEventListener('click', () => {
+    const id = parseYouTubeId(ytUrlInput.value);
+    if (!id) {
+      setStatus('YouTube URL を認識できませんでした。', true);
+      return;
+    }
+    void youtube.load(id);
+    ytClearBtn.disabled = false;
+  });
+  ytClearBtn.addEventListener('click', () => {
+    youtube.clear();
+    ytUrlInput.value = '';
+    ytClearBtn.disabled = true;
+  });
+}
+
+/** The drum transport is the master clock; media + YouTube follow it. */
+function wireSync(): void {
+  player.onPositionChanged((pos) => {
+    positionMs = pos.currentTime;
+  });
+  player.onStateChanged((playing) => {
+    playBtn.textContent = playing ? '⏸ 一時停止' : '▶ 再生 / 一時停止';
+    const seconds = positionMs / 1000;
+    if (playing) {
+      media.seek(seconds);
+      void media.play().catch(() => undefined);
+      youtube.seek(seconds);
+      youtube.play();
+    } else {
+      media.pause();
+      youtube.pause();
+    }
+  });
+}
+
+function wireRecording(): void {
+  recordBtn.addEventListener('click', () => {
+    if (!scoreReady) return;
+    void runRecording();
+  });
+}
+
+async function runRecording(): Promise<void> {
+  recordBtn.disabled = true;
+  recordStatus.textContent = '書き出し中…（曲の長さぶん処理します）';
+  try {
+    const synth = await player.exportSynthAudio();
+    const blob = await renderMixToWav(synth, media.file);
+    const stamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+    downloadBlob(blob, `drum-mix-${stamp}.wav`);
+    recordStatus.textContent = '完了。WAV をダウンロードしました。';
+  } catch (error) {
+    recordStatus.textContent = `録音失敗: ${(error as Error).message}`;
+  } finally {
+    recordBtn.disabled = !scoreReady;
+  }
+}
+
 player.onScoreLoaded((tracks) => {
+  scoreReady = true;
+  positionMs = 0;
   renderMixer(tracks);
   setStatus('準備完了。再生できます。');
 });
@@ -129,6 +233,9 @@ player.onPlayerReady(() => setTransportEnabled(true));
 player.onError((error) => setStatus(`エラー: ${error.message}`, true));
 
 wireTransport();
+wirePlayAlong();
+wireSync();
+wireRecording();
 
 async function init(): Promise<void> {
   try {
