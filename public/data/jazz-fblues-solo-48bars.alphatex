@@ -1,0 +1,285 @@
+\title "モダンジャズ 4ビート — F ブルース ドラムソロ（48小節）"
+\subtitle "swing / F blues / 4 choruses / 難"
+\tempo 120
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+// --- Chorus 1 (bars 1-12) ---
+r.4 r.4 r.4 Kick.4 | // 1
+r.4 r.4 Kick.4 r.4 | // 2
+r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.4 r.4 r.4 | // 3
+Kick.4 r.4 r.4 r.4 | // 4
+r.4 r.4 r.4 Kick.4 | // 5
+r.4 r.4 Kick.4 r.4 | // 6
+Kick.4 r.4 r.4 r.4 | // 7
+r.4 r.4 r.4 Kick.4 | // 8
+r.4 r.4 Kick.4 r.4 | // 9
+r.4 r.4 r.4 Kick.4 | // 10
+Kick.4 r.4 Kick.4 r.4 | // 11
+r.2 r.4 Kick.4 | // 12
+// --- Chorus 2 (bars 13-24) ---
+Kick.4 r.4 r.4 Kick.4 | // 13
+r.4 Kick.4 r.4 Kick.4 | // 14
+Kick.4 r.4 Kick.4 r.4 | // 15
+r.4 r.4 r.4 Kick.4 | // 16
+Kick.4 r.4 r.4 r.4 | // 17
+r.4 r.4 r.4 Kick.4 | // 18
+r.4 Kick.4 r.4 Kick.4 | // 19
+Kick.4 r.4 Kick.4 r.4 | // 20
+Kick.4 r.4 Kick.4 r.4 | // 21
+Kick.4 Kick.4 Kick.4 Kick.4 | // 22
+Kick.4 r.4 Kick.4 r.4 | // 23
+r.2 r.4 Kick.4 | // 24
+// --- Chorus 3 (bars 25-36) ---
+Kick.4 r.4 Kick.4 r.4 | // 25
+r.4 Kick.4 r.4 Kick.4 | // 26
+Kick.4 r.4 Kick.4 r.4 | // 27
+Kick.4 r.4 r.4 Kick.4 | // 28
+Kick.4 r.4 Kick.4 r.4 | // 29
+r.4 Kick.4 r.4 Kick.4 | // 30
+Kick.4 Kick.4 Kick.4 Kick.4 | // 31
+r.2 Kick.4 Kick.4 | // 32
+Kick.4 r.4 Kick.4 r.4 | // 33
+Kick.4 Kick.4 Kick.4 Kick.4 | // 34
+r.4 Kick.4 r.4 Kick.4 | // 35
+Kick.4 r.4 r.2 | // 36
+// --- Chorus 4 (bars 37-48) ---
+Kick.4 Kick.4 Kick.4 Kick.4 | // 37
+Kick.4 Kick.4 Kick.4 Kick.4 | // 38
+Kick.4 r.4 Kick.4 r.4 | // 39
+Kick.4 Kick.4 Kick.4 Kick.4 | // 40
+Kick.4 r.4 Kick.4 r.4 | // 41
+Kick.4 Kick.4 Kick.4 Kick.4 | // 42
+Kick.4 r.4 Kick.4 r.4 | // 43
+Kick.4 Kick.4 Kick.4 Kick.4 | // 44
+Kick.4 Kick.4 Kick.4 Kick.4 | // 45
+Kick.4 Kick.4 Kick.4 Kick.4 | // 46
+Kick.4 Kick.4 Kick.4 Kick.4 | // 47
+Kick.4 r.4 r.2 | // 48
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+// --- Chorus 1 (bars 1-12) ---
+r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 r.4 | // 1
+Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 r.4 r.4 | // 2
+r.4 Snare.4 r.4 Snare.4 | // 3
+r.4 r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 4
+r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.2 | // 5
+Snare.4 r.4 r.4 r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 6
+Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 | // 7
+r.2 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} | // 8
+r.4 Snare.4 r.4 Snare.4 | // 9
+Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 | // 10
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 11
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2 | // 12
+// --- Chorus 2 (bars 13-24) ---
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 | // 13
+Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 | // 14
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 15
+r.2 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 16
+Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.4 | // 17
+r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 18
+r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} | // 19
+Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 r.4 Snare.4 | // 20
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 21
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 22
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 23
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2 | // 24
+// --- Chorus 3 (bars 25-36) ---
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 25
+Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.4 | // 26
+Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} | // 27
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2 | // 28
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 29
+r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 30
+Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} | // 31
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2 | // 32
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 33
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.2 | // 34
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 35
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2 | // 36
+// --- Chorus 4 (bars 37-48) ---
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 37
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 38
+Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} r.8{tu 3} | // 39
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.2 | // 40
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 41
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 | // 42
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 | // 43
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 44
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.4 | // 45
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 46
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.2 | // 47
+Snare.4 r.4 r.2 | // 48
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+\articulation OpenHH 46
+// foot hi-hat on 2 & 4 (bars 1-47)
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+r.4 HH.4 r.4 HH.4 | // 5
+r.4 HH.4 r.4 HH.4 | // 6
+r.4 HH.4 r.4 HH.4 | // 7
+r.4 HH.4 r.4 HH.4 | // 8
+r.4 HH.4 r.4 HH.4 | // 9
+r.4 HH.4 r.4 HH.4 | // 10
+r.4 HH.4 r.4 HH.4 | // 11
+r.4 HH.4 r.4 HH.4 | // 12
+r.4 HH.4 r.4 HH.4 | // 13
+r.4 HH.4 r.4 HH.4 | // 14
+r.4 HH.4 r.4 HH.4 | // 15
+r.4 HH.4 r.4 HH.4 | // 16
+r.4 HH.4 r.4 HH.4 | // 17
+r.4 HH.4 r.4 HH.4 | // 18
+r.4 HH.4 r.4 HH.4 | // 19
+r.4 HH.4 r.4 HH.4 | // 20
+r.4 HH.4 r.4 HH.4 | // 21
+r.4 HH.4 r.4 HH.4 | // 22
+r.4 HH.4 r.4 HH.4 | // 23
+r.4 HH.4 r.4 HH.4 | // 24
+r.4 HH.4 r.4 HH.4 | // 25
+r.4 HH.4 r.4 HH.4 | // 26
+r.4 HH.4 r.4 HH.4 | // 27
+r.4 HH.4 r.4 HH.4 | // 28
+r.4 HH.4 r.4 HH.4 | // 29
+r.4 HH.4 r.4 HH.4 | // 30
+r.4 HH.4 r.4 HH.4 | // 31
+r.4 HH.4 r.4 HH.4 | // 32
+r.4 HH.4 r.4 HH.4 | // 33
+r.4 HH.4 r.4 HH.4 | // 34
+r.4 HH.4 r.4 HH.4 | // 35
+r.4 HH.4 r.4 HH.4 | // 36
+r.4 HH.4 r.4 HH.4 | // 37
+r.4 HH.4 r.4 HH.4 | // 38
+r.4 HH.4 r.4 HH.4 | // 39
+r.4 HH.4 r.4 HH.4 | // 40
+r.4 HH.4 r.4 HH.4 | // 41
+r.4 HH.4 r.4 HH.4 | // 42
+r.4 HH.4 r.4 HH.4 | // 43
+r.4 HH.4 r.4 HH.4 | // 44
+r.4 HH.4 r.4 HH.4 | // 45
+r.4 HH.4 r.4 HH.4 | // 46
+r.4 HH.4 r.4 HH.4 | // 47
+r.1 | // 48
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+// --- Chorus 1 (bars 1-12) ---
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.4 r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.4 r.4 | // 7
+r.2 r.4 r.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} | // 8
+r.1 | // 9
+r.1 | // 10
+r.4 HiTom.8{tu 3} HiTom.8{tu 3} HiTom.8{tu 3} r.4 MidTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} | // 11
+r.2 HiTom.8{tu 3} HiTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} | // 12
+// --- Chorus 2 (bars 13-24) ---
+r.1 | // 13
+r.4 r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} r.4 r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} | // 14
+r.4 HiTom.8{tu 3} HiTom.8{tu 3} HiTom.8{tu 3} r.4 MidTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} | // 15
+r.1 | // 16
+r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.4 r.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.4 | // 17
+r.4 r.4 HiTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} r.4 | // 18
+r.1 | // 19
+r.1 | // 20
+r.4 HiTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} r.4 HiTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} | // 21
+r.1 | // 22
+r.4 HiTom.8{tu 3} HiTom.8{tu 3} HiTom.8{tu 3} r.4 MidTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} | // 23
+r.2 HiTom.8{tu 3} HiTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} | // 24
+// --- Chorus 3 (bars 25-36) ---
+r.1 | // 25
+r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.4 r.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.4 | // 26
+r.8{tu 3} HiTom.8{tu 3} HiTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} | // 27
+r.1 | // 28
+r.1 | // 29
+r.1 | // 30
+r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} | // 31
+r.2 HiTom.8{tu 3} HiTom.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} | // 32
+r.1 | // 33
+r.2 HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 34
+r.1 | // 35
+r.2 HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 36
+// --- Chorus 4 (bars 37-48) ---
+r.1 | // 37
+r.1 | // 38
+r.8{tu 3} HiTom.8{tu 3} HiTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} MidTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom.8{tu 3} | // 39
+r.2 HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 40
+r.1 | // 41
+r.4 HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} r.4 FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 42
+r.4 MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} r.4 FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 43
+r.1 | // 44
+r.4 HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} HiTom.16{tu 3} r.4 MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} MidTom.16{tu 3} | // 45
+r.1 | // 46
+r.2 FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} FloorTom.16{tu 3} | // 47
+r.1 | // 48
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+// --- Chorus 1 (bars 1-12): ride time (spang-a-lang) ---
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 8
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 9
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 10
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 11
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 12
+// --- Chorus 2 (bars 13-24): crash accents, ride drops on busy bars ---
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 13
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 14
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 15
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 16
+r.1 | // 17
+r.1 | // 18
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 19
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 20
+r.1 | // 21
+r.1 | // 22
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 23
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.2 | // 24
+// --- Chorus 3 (bars 25-36): build, more crashes ---
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 25
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 26
+r.1 | // 27
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 28
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 29
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 30
+r.1 | // 31
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.2 | // 32
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 33
+r.1 | // 34
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 35
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.2 | // 36
+// --- Chorus 4 (bars 37-48): climax, crash on phrase heads, final hit ---
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 37
+r.1 | // 38
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 39
+r.1 | // 40
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 41
+r.1 | // 42
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 43
+r.1 | // 44
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 45
+r.1 | // 46
+r.1 | // 47
+Crash.1 | // 48
