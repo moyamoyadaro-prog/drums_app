@@ -1,0 +1,35 @@
+[
+  {
+    "bars": [1, 2],
+    "drummer": "Max Roach",
+    "song": "4小節トレードのスタイル研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-trade8-01",
+    "note": "短いモチーフを提示し、次小節で1拍うしろへ変位させて再帰させる手法"
+  },
+  {
+    "bars": [3, 3],
+    "drummer": "Max Roach",
+    "song": "4小節トレードのスタイル研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-trade4-01",
+    "note": "アップビート始まりの三連連結句"
+  },
+  {
+    "bars": [9, 10],
+    "drummer": "Max Roach",
+    "song": "4小節トレードのスタイル研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-trade8-01",
+    "note": "モチーフの再提示（変位）"
+  }
+]

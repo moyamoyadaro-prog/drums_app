@@ -6,6 +6,46 @@
       "updatedAt": "2026-06-15T15:29:33.323Z"
     },
     {
+      "title": "4ビート・トレード ドラムソロ（16小節）",
+      "file": "jazz-trade-roach-16bars.alphatex",
+      "updatedAt": "2026-06-16T07:27:28.154Z",
+      "references": [
+        {
+          "bars": [1, 2],
+          "drummer": "Max Roach",
+          "song": "4小節トレードのスタイル研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-trade8-01",
+          "note": "短いモチーフを提示し、次小節で1拍うしろへ変位させて再帰させる手法"
+        },
+        {
+          "bars": [3, 3],
+          "drummer": "Max Roach",
+          "song": "4小節トレードのスタイル研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-trade4-01",
+          "note": "アップビート始まりの三連連結句"
+        },
+        {
+          "bars": [9, 10],
+          "drummer": "Max Roach",
+          "song": "4小節トレードのスタイル研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-trade8-01",
+          "note": "モチーフの再提示（変位）"
+        }
+      ]
+    },
+    {
       "title": "サンプル・ドラムソロ",
       "file": "sample-solo.alphatex",
       "updatedAt": "2026-06-14T13:59:40.312Z"
