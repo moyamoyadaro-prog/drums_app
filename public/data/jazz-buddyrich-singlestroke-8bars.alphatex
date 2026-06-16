@@ -6,26 +6,26 @@
 \instrument percussion
 \clef neutral
 \articulation Kick 36
-Kick.4 Kick.4 Kick.4 Kick.4 | // 1 feathered bass
-Kick.4 Kick.4 Kick.4 Kick.4 | // 2
-Kick.4 Kick.4 Kick.4 Kick.4 | // 3
-Kick.4 Kick.4 Kick.4 Kick.4 | // 4
-Kick.4 Kick.4 Kick.4 Kick.4 | // 5
-Kick.4 Kick.4 Kick.4 Kick.4 | // 6
-Kick.4 Kick.4 Kick.4 Kick.4 | // 7
-Kick.4 r.4 r.2 | // 8
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 1 feathered bass (very soft)
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 2
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 3
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 4
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 5
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 6
+Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} Kick.4{dy ppp} | // 7
+Kick{ac}.4{dy ff} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
-Snare.8 r.8 Snare.8 r.8 Snare.8 r.8 Snare.8 r.8 | // 1 sparse start
-Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 | // 2 eighth singles
-Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 | // 3 sixteenth singles
-Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 | // 4
-Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 5 roll crescendo
-Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 6
-Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 7 peak
-Snare.4 r.4 r.2 | // 8 cap
+Snare.8{dy p} r.8 Snare.8{dy p} r.8 Snare.8{dy p} r.8 Snare.8{dy p} r.8 | // 1 sparse start (soft)
+Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mp} | // 2 eighth singles
+Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy mf} | // 3 sixteenth singles
+Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} Snare.16{dy f} | // 4
+Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} Snare.16{tu 3 dy f} | // 5 roll crescendo
+Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} | // 6
+Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} Snare.16{tu 3 dy ff} | // 7 peak
+Snare{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
@@ -61,7 +61,7 @@ Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
-Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
+Crash.4{dy ff} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap

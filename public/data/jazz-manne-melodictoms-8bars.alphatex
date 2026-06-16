@@ -13,7 +13,7 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Kick.4 r.4 r.2 | // 8
+Kick.4{dy mf} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
@@ -25,12 +25,12 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Snare.4 r.4 r.2 | // 8 cap
+Snare{ac}.4{dy f} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
 \articulation HH 42
-r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4{dy mp} r.4 HH.4 | // 1 light foot
 r.4 HH.4 r.4 HH.4 | // 2
 r.4 HH.4 r.4 HH.4 | // 3
 r.4 HH.4 r.4 HH.4 | // 4
@@ -44,14 +44,14 @@ r.1 | // 8
 \articulation HiTom 48
 \articulation MidTom 45
 \articulation FloorTom 41
-HiTom.4 MidTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 1 theme
-HiTom.8 HiTom.8 MidTom.4 FloorTom.8 MidTom.8 HiTom.4 | // 2 variation
-HiTom.4 MidTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 3 theme restated
-MidTom.8 HiTom.8 MidTom.8 FloorTom.8 FloorTom.4 HiTom.4 | // 4 variation 2
-HiTom.8 MidTom.8 HiTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 5 theme higher
-FloorTom.8 MidTom.8 HiTom.8 MidTom.8 HiTom.4 r.4 | // 6 inversion
-HiTom.8 MidTom.8 FloorTom.8 HiTom.8 MidTom.8 FloorTom.8 HiTom.8 MidTom.8 | // 7 running line
-HiTom.4 r.4 r.2 | // 8 cap
+HiTom{ac}.4{dy mf} MidTom.8 MidTom.8 FloorTom.4 HiTom{ac}.4 | // 1 theme (mf baseline, accents)
+HiTom.8 HiTom.8 MidTom{ac}.4 FloorTom.8 MidTom.8 HiTom{ac}.4 | // 2 variation
+HiTom{ac}.4 MidTom.8 MidTom.8 FloorTom.4 HiTom{ac}.4 | // 3 theme restated
+MidTom{ac}.8 HiTom.8 MidTom.8 FloorTom.8 FloorTom{ac}.4 HiTom.4 | // 4 variation 2
+HiTom{ac}.8 MidTom.8 HiTom.8 MidTom.8 FloorTom{ac}.4 HiTom.4 | // 5 theme higher
+FloorTom{ac}.8 MidTom.8 HiTom.8 MidTom.8 HiTom{ac}.4 r.4 | // 6 inversion
+HiTom.8{dy f} MidTom.8 FloorTom.8 HiTom.8 MidTom.8 FloorTom.8 HiTom.8 MidTom.8 | // 7 running line (cresc to f)
+HiTom{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "Cymbals"
 \instrument percussion
 \clef neutral
@@ -64,4 +64,4 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy f} r.4 r.2 | // 8 cap

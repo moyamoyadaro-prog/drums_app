@@ -6,26 +6,26 @@
 \instrument percussion
 \clef neutral
 \articulation Kick 36
-r.4 r.4 Kick.8 r.8 Kick.4 | // 1 bomb on &3, 4
-Kick.4 r.4 r.4 r.4 | // 2 bomb on 1
-r.4 r.8 Kick.8 r.4 Kick.4 | // 3
-r.4 r.4 r.4 Kick.4 | // 4
-r.4 r.4 Kick.8 r.8 Kick.4 | // 5
-Kick.8 r.8 r.4 r.4 Kick.4 | // 6
+r.4 r.4 Kick{ac}.8{dy ff} r.8 Kick{ac}.4{dy ff} | // 1 bomb on &3, 4
+Kick{ac}.4{dy ff} r.4 r.4 r.4 | // 2 bomb on 1
+r.4 r.8 Kick{ac}.8{dy ff} r.4 Kick{ac}.4{dy ff} | // 3
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 4
+r.4 r.4 Kick{ac}.8{dy ff} r.8 Kick{ac}.4{dy ff} | // 5
+Kick{ac}.8{dy ff} r.8 r.4 r.4 Kick{ac}.4{dy ff} | // 6
 r.1 | // 7
-r.4 r.4 r.4 Kick.4 | // 8
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
-r.4 r.8 Snare.8 r.4 r.4 | // 1 comp
-r.4 r.4 r.8 Snare.8 r.4 | // 2
-r.8 Snare.8 r.4 r.4 r.4 | // 3
-r.4 r.4 Snare.8 r.8 r.4 | // 4
-r.4 r.8 Snare.8 r.4 r.4 | // 5
-r.4 r.4 r.4 Snare.8 r.8 | // 6
-Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 | // 7 small build
-Snare.4 r.4 r.2 | // 8 cap
+r.4 r.8 Snare.8{dy mf} r.4 r.4 | // 1 comp
+r.4 r.4 r.8 Snare.8{dy mf} r.4 | // 2
+r.8 Snare.8{dy mf} r.4 r.4 r.4 | // 3
+r.4 r.4 Snare.8{dy mf} r.8 r.4 | // 4
+r.4 r.8 Snare.8{dy mf} r.4 r.4 | // 5
+r.4 r.4 r.4 Snare.8{dy mf} r.8 | // 6
+Snare.8{dy p} Snare.8{dy p} Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mf} Snare.8{dy mf} Snare.8{dy f} Snare.8{dy f} | // 7 crescendo build
+Snare{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
@@ -61,7 +61,7 @@ Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
-Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5 crash head
+Crash.4{dy ff} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5 crash head
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap

@@ -6,27 +6,27 @@
 \instrument percussion
 \clef neutral
 \articulation Kick 36
-r.4 r.4 r.4 Kick.4 | // 1 surprise punctuation
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 1 surprise punctuation
 r.1 | // 2
-r.4 Kick.4 r.4 r.4 | // 3
+r.4 Kick{ac}.4{dy ff} r.4 r.4 | // 3
 r.1 | // 4
-r.4 r.4 r.4 Kick.4 | // 5
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 5
 r.1 | // 6
-r.4 r.4 Kick.4 r.4 | // 7
-Kick.4 r.4 r.2 | // 8
+r.4 r.4 Kick{ac}.4{dy ff} r.4 | // 7
+Kick{ac}.4{dy ff} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
 \articulation SideStick 37
-r.8 Snare.8 r.8 Snare.8 SideStick.4 r.4 | // 1 crackle + snap
-r.4 Snare.8 r.8 r.4 SideStick.4 | // 2
-r.8 Snare.8 r.8 Snare.8 r.4 SideStick.4 | // 3
-SideStick.4 r.4 r.8 Snare.8 r.4 | // 4
-r.8 Snare.8 r.8 Snare.8 SideStick.4 r.4 | // 5
-r.4 SideStick.4 r.8 Snare.8 Snare.8 r.8 | // 6
-Snare.8 Snare.8 Snare.8 Snare.8 SideStick.4 SideStick.4 | // 7 snap burst
-SideStick.4 r.4 r.2 | // 8 cap
+r.8 Snare{g}.8{dy ppp} r.8 Snare{g}.8{dy ppp} SideStick{ac}.4{dy ff} r.4 | // 1 crackle + snap
+r.4 Snare{g}.8{dy ppp} r.8 r.4 SideStick{ac}.4{dy ff} | // 2
+r.8 Snare{g}.8{dy ppp} r.8 Snare{g}.8{dy ppp} r.4 SideStick{ac}.4{dy ff} | // 3
+SideStick{ac}.4{dy ff} r.4 r.8 Snare{g}.8{dy ppp} r.4 | // 4
+r.8 Snare{g}.8{dy ppp} r.8 Snare{g}.8{dy ppp} SideStick{ac}.4{dy ff} r.4 | // 5
+r.4 SideStick{ac}.4{dy ff} r.8 Snare{g}.8{dy ppp} Snare{g}.8{dy ppp} r.8 | // 6
+Snare{ac}.8{dy f} Snare{ac}.8{dy f} Snare{ac}.8{dy f} Snare{ac}.8{dy f} SideStick{ac}.4{dy ff} SideStick{ac}.4{dy ff} | // 7 snap burst
+SideStick{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
@@ -65,4 +65,4 @@ Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} r.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap

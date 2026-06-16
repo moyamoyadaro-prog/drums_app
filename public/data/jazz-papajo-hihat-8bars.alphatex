@@ -13,32 +13,32 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Kick.4 r.4 r.2 | // 8
+Kick.4{dy mf} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
 r.1 | // 1
-r.4 r.4 Snare.8 r.8 r.4 | // 2 light comp
+r.4 r.4 Snare.8{dy mf} r.8 r.4 | // 2 light comp
 r.1 | // 3
-r.4 Snare.8 r.8 r.4 r.4 | // 4
+r.4 Snare.8{dy mf} r.8 r.4 r.4 | // 4
 r.1 | // 5
-r.4 r.4 r.4 Snare.8 r.8 | // 6
-Snare.8 Snare.8 Snare.8 Snare.8 r.4 r.4 | // 7 small fill
-Snare.4 r.4 r.2 | // 8 cap
+r.4 r.4 r.4 Snare.8{dy mf} r.8 | // 6
+Snare.8{dy mp} Snare.8{dy mp} Snare.8{dy mf} Snare.8{dy mf} r.4 r.4 | // 7 small fill
+Snare{ac}.4{dy f} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
 \articulation HH 42
 \articulation OpenHH 46
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 1 hi-hat led, open on upbeats
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 2
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 3
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 4
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 5
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 6
-HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 7
-OpenHH.4 r.4 r.2 | // 8 cap
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 1 hi-hat led, open sings on upbeats
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 2
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 3
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 4
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 5
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 6
+HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} HH.8{dy mp} OpenHH.8{dy f} | // 7
+OpenHH.4{dy f} r.4 r.2 | // 8 cap
 \track "Toms"
 \instrument percussion
 \clef neutral
@@ -65,4 +65,4 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy f} r.4 r.2 | // 8 cap

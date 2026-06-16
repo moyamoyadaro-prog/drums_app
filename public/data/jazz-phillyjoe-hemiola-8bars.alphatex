@@ -13,20 +13,20 @@ r.1 | // 4
 r.1 | // 5
 r.1 | // 6
 r.1 | // 7
-Kick.4 r.4 r.2 | // 8
+Kick{ac}.4{dy ff} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
 \articulation SideStick 37
-r.4 r.4 r.4 SideStick.4 | // 1 Philly lick (cross-stick on 4)
-r.4 r.4 r.4 SideStick.4 | // 2
-r.4 r.4 r.4 SideStick.4 | // 3
-r.4 r.4 r.4 SideStick.4 | // 4
-r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 5 hemiola
-Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 6 hemiola rolls over barline
-r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 7
-Snare.4 r.4 r.2 | // 8 cap
+r.4 r.4 r.4 SideStick{ac}.4{dy ff} | // 1 Philly lick (cross-stick on 4)
+r.4 r.4 r.4 SideStick{ac}.4{dy ff} | // 2
+r.4 r.4 r.4 SideStick{ac}.4{dy ff} | // 3
+r.4 r.4 r.4 SideStick{ac}.4{dy ff} | // 4
+r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} | // 5 hemiola carpet
+Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} | // 6 rolls over barline
+r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3 dy pp} | // 7
+Snare{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
@@ -49,9 +49,9 @@ r.1 | // 1
 r.1 | // 2
 r.1 | // 3
 r.1 | // 4
-HiTom.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} r.8{tu 3} | // 5 hemiola accent (every 9th)
-r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 6
-HiTom.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} r.8{tu 3} | // 7
+HiTom{ac}.8{tu 3 dy ff} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom{ac}.8{tu 3 dy ff} r.8{tu 3} r.8{tu 3} | // 5 hemiola accent (every 9th)
+r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom{ac}.8{tu 3 dy ff} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 6
+HiTom{ac}.8{tu 3 dy ff} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom{ac}.8{tu 3 dy ff} r.8{tu 3} r.8{tu 3} | // 7
 r.1 | // 8
 \track "Cymbals"
 \instrument percussion
@@ -62,7 +62,7 @@ Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
-Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
+Crash.4{dy ff} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap

@@ -6,26 +6,26 @@
 \instrument percussion
 \clef neutral
 \articulation Kick 36
-r.4 r.4 r.4 Kick.4 | // 1
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 1
 r.1 | // 2
-Kick.4 r.4 r.4 r.4 | // 3
+Kick{ac}.4{dy ff} r.4 r.4 r.4 | // 3
 r.1 | // 4
-r.4 r.4 Kick.4 r.4 | // 5
+r.4 r.4 Kick{ac}.4{dy ff} r.4 | // 5
 r.1 | // 6
-r.4 r.4 r.4 Kick.4 | // 7
-Kick.4 r.4 r.2 | // 8
+r.4 r.4 r.4 Kick{ac}.4{dy ff} | // 7
+Kick{ac}.4{dy ff} r.4 r.2 | // 8
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
-Snare.8 Snare.8 Snare.4 r.4 r.4 | // 1 call
-Snare.8 r.8 Snare.8 Snare.8 r.4 r.4 | // 2 call varied
-Snare.8 r.8 Snare.8 Snare.8 r.4 r.4 | // 3 motif
-r.4 Snare.8 r.8 Snare.8 Snare.8 r.4 | // 4 displaced motif
-r.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.4 r.4 | // 5 triplet connector
-r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 r.4 | // 6 connector varied
-Snare.8 Snare.8 r.4 r.4 r.4 | // 7 descent lead-in
-Snare.4 r.4 r.2 | // 8 cap
+Snare{ac}.8{dy mf} Snare.8 Snare{ac}.4 r.4 r.4 | // 1 call (mf baseline, motif accents)
+Snare{ac}.8 r.8 Snare.8 Snare.8 r.4 r.4 | // 2 call varied
+Snare{ac}.8 r.8 Snare.8 Snare.8 r.4 r.4 | // 3 motif
+r.4 Snare{ac}.8 r.8 Snare.8 Snare.8 r.4 | // 4 displaced motif
+r.8{tu 3} r.8{tu 3} Snare{g}.8{tu 3 dy pp} Snare{g}.8{tu 3} r.8{tu 3} Snare{g}.8{tu 3} r.4 r.4 | // 5 triplet connector (ghosts)
+r.8{tu 3} Snare{g}.8{tu 3} Snare{g}.8{tu 3} r.8{tu 3} Snare{g}.8{tu 3} Snare{g}.8{tu 3} r.4 r.4 | // 6 connector varied
+Snare.8{dy mf} Snare.8 r.4 r.4 r.4 | // 7 descent lead-in
+Snare{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
@@ -44,13 +44,13 @@ r.1 | // 8
 \articulation HiTom 48
 \articulation MidTom 45
 \articulation FloorTom 41
-r.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | // 1 response
-r.4 r.4 HiTom.8 HiTom.8 FloorTom.8 FloorTom.8 | // 2 response varied
-r.2 HiTom.4 r.4 | // 3 motif tom
-r.4 r.2 HiTom.4 | // 4 displaced tom
+r.4 r.4 HiTom{ac}.8{dy mf} MidTom.8 FloorTom.4 | // 1 response
+r.4 r.4 HiTom{ac}.8 HiTom.8 FloorTom.8 FloorTom.8 | // 2 response varied
+r.2 HiTom{ac}.4 r.4 | // 3 motif tom
+r.4 r.2 HiTom{ac}.4 | // 4 displaced tom
 r.1 | // 5
 r.1 | // 6
-r.4 HiTom.8 HiTom.8 MidTom.8 MidTom.8 FloorTom.8 FloorTom.8 | // 7 melodic descent
+r.4 HiTom.8{dy mf} HiTom.8 MidTom.8 MidTom.8 FloorTom.8 FloorTom.8 | // 7 melodic descent
 r.1 | // 8
 \track "Cymbals"
 \instrument percussion
@@ -61,7 +61,7 @@ Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
-Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
+Crash.4{dy ff} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
 Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap
