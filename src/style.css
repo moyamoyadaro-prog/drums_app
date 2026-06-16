@@ -136,6 +136,25 @@ body {
   font-size: 0.9rem;
 }
 
+.ctrl-unit {
+  color: var(--muted, inherit);
+  font-size: 0.8rem;
+}
+
+#tempo-num {
+  width: 4.5rem;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.4rem;
+  font-size: 0.9rem;
+}
+
+#tempo-num:disabled {
+  opacity: 0.4;
+}
+
 button {
   background: var(--panel-2);
   color: var(--text);

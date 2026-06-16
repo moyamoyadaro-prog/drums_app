@@ -30,8 +30,11 @@
           <button id="play" type="button" disabled>▶ 再生 / 一時停止</button>
           <button id="stop" type="button" disabled>■ 停止</button>
           <label class="ctrl">
-            テンポ <output id="tempo-out">100%</output>
-            <input id="tempo" type="range" min="25" max="200" step="5" value="100" disabled />
+            テンポ
+            <input id="tempo-num" type="number" min="20" max="400" step="1" value="120" disabled />
+            <span class="ctrl-unit">BPM</span>
+            <input id="tempo" type="range" min="20" max="400" step="1" value="120" disabled />
+            <output id="tempo-out">100%</output>
           </label>
           <label class="ctrl">
             <input id="loop" type="checkbox" disabled /> ループ

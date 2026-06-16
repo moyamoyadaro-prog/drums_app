@@ -20,6 +20,7 @@ const loadTexBtn = el<HTMLButtonElement>('load-tex');
 const playBtn = el<HTMLButtonElement>('play');
 const stopBtn = el<HTMLButtonElement>('stop');
 const tempoInput = el<HTMLInputElement>('tempo');
+const tempoNumInput = el<HTMLInputElement>('tempo-num');
 const tempoOut = el<HTMLOutputElement>('tempo-out');
 const loopInput = el<HTMLInputElement>('loop');
 const masterInput = el<HTMLInputElement>('master');
@@ -45,7 +46,23 @@ const youtube = new YouTubePlayer(el('yt-host'));
 let positionMs = 0;
 /** Current tempo factor (1 = original), applied to backing media too. */
 let tempoFactor = 1;
+/** The loaded score's authored BPM; the tempo controls are expressed in BPM. */
+let originalBpm = 120;
 let scoreReady = false;
+
+const TEMPO_MIN = Number(tempoInput.min);
+const TEMPO_MAX = Number(tempoInput.max);
+
+/** Drives the synth + backing media from an absolute target BPM and syncs the UI. */
+function applyTempoBpm(bpm: number): void {
+  const clamped = Math.min(TEMPO_MAX, Math.max(TEMPO_MIN, Math.round(bpm)));
+  tempoFactor = originalBpm > 0 ? clamped / originalBpm : 1;
+  tempoInput.value = String(clamped);
+  tempoNumInput.value = String(clamped);
+  tempoOut.textContent = `${Math.round(tempoFactor * 100)}%`;
+  player.setTempo(tempoFactor);
+  media.setRate(tempoFactor);
+}
 
 function setStatus(message: string, isError = false): void {
   statusEl.textContent = message;
@@ -53,7 +70,7 @@ function setStatus(message: string, isError = false): void {
 }
 
 function setTransportEnabled(enabled: boolean): void {
-  for (const control of [playBtn, stopBtn, tempoInput, loopInput, masterInput]) {
+  for (const control of [playBtn, stopBtn, tempoInput, tempoNumInput, loopInput, masterInput]) {
     control.disabled = !enabled;
   }
   recordBtn.disabled = !enabled;
@@ -161,13 +178,8 @@ function renderSongList(items: ManifestItem[]): void {
 function wireTransport(): void {
   playBtn.addEventListener('click', () => player.playPause());
   stopBtn.addEventListener('click', () => player.stop());
-  tempoInput.addEventListener('input', () => {
-    const percent = Number(tempoInput.value);
-    tempoOut.textContent = `${percent}%`;
-    tempoFactor = percent / 100;
-    player.setTempo(tempoFactor);
-    media.setRate(tempoFactor);
-  });
+  tempoInput.addEventListener('input', () => applyTempoBpm(Number(tempoInput.value)));
+  tempoNumInput.addEventListener('change', () => applyTempoBpm(Number(tempoNumInput.value)));
   loopInput.addEventListener('change', () => player.setLooping(loopInput.checked));
   masterInput.addEventListener('input', () => {
     const percent = Number(masterInput.value);
@@ -256,6 +268,8 @@ async function runRecording(): Promise<void> {
 player.onScoreLoaded((tracks) => {
   scoreReady = true;
   positionMs = 0;
+  originalBpm = player.originalTempo || 120;
+  applyTempoBpm(originalBpm);
   renderMixer(tracks);
   setStatus('準備完了。再生できます。');
 });

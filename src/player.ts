@@ -109,6 +109,11 @@ export class DrumPlayer {
     this.api.playbackSpeed = factor;
   }
 
+  /** The score's authored initial tempo in BPM (0 when no score is loaded). */
+  get originalTempo(): number {
+    return this.api.score?.tempo ?? 0;
+  }
+
   setLooping(looping: boolean): void {
     this.api.isLooping = looping;
   }
