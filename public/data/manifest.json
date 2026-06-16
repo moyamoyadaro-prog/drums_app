@@ -1,9 +1,241 @@
 {
   "items": [
     {
+      "title": "Art Blakey 風 4ビート — 三連アクセントとクレッシェンド・プレスロール（8小節）",
+      "file": "jazz-blakey-pressroll-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:01:12.776Z",
+      "references": [
+        {
+          "bars": [1, 4],
+          "drummer": "Art Blakey",
+          "song": "三連アクセント移動の語法研究",
+          "fidelity": "idiom",
+          "refs": ["https://www.drumeo.com/beat/art-blakey-drum-grooves/"],
+          "libraryId": "jazz-trade4-03",
+          "note": "2・4ハイハットの上で三連アクセントを拍ごとにずらす"
+        },
+        {
+          "bars": [5, 6],
+          "drummer": "Art Blakey",
+          "song": "クレッシェンド・プレスロールの語法研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.moderndrummer.com/2009/12/art-blakey/",
+            "https://scottkfish.com/2016/04/24/art-blakeys-press-roll-its-the-way-i-feel/"
+          ],
+          "libraryId": "jazz-build-01",
+          "note": "静かな震えから爆発へ育つプレスロール（8分3連→16分3連で近似）"
+        }
+      ]
+    },
+    {
+      "title": "Buddy Rich 風 4ビート — シングルストロークロールのクレッシェンド（8小節）",
+      "file": "jazz-buddyrich-singlestroke-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:03:42.074Z",
+      "references": [
+        {
+          "bars": [5, 7],
+          "drummer": "Buddy Rich",
+          "song": "シングルストロークロールのクレッシェンド語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://www.drumeo.com/beat/5-impossible-buddy-rich-licks/",
+            "https://jazzlives.substack.com/p/buddy-richs-legacy-how-the-worlds"
+          ],
+          "libraryId": "jazz-climax-01",
+          "note": "均一で滑らかな超高速シングルストロークロールでクライマックスへ煽る"
+        }
+      ]
+    },
+    {
+      "title": "Kenny Clarke 風 4ビート — ライド時間とドロッピング・ボム（8小節）",
+      "file": "jazz-clarke-bombs-8bars.alphatex",
+      "updatedAt": "2026-06-16T09:59:48.281Z",
+      "references": [
+        {
+          "bars": [1, 8],
+          "drummer": "Kenny Clarke",
+          "song": "ライド時間とドロッピング・ボムの語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://www.npr.org/2014/01/09/261051016/kenny-clarke-inventor-of-modern-jazz-drumming-at-100",
+            "https://en.wikipedia.org/wiki/Kenny_Clarke"
+          ],
+          "libraryId": "jazz-groove-01",
+          "note": "ライドへ時間を移し、バスドラ/スネアで不意の爆弾を落とす基礎革新"
+        }
+      ]
+    },
+    {
+      "title": "Jimmy Cobb 風 4ビート — 羽毛のように軽いライドと構造アクセント（8小節）",
+      "file": "jazz-cobb-featherride-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:05:08.102Z",
+      "references": [
+        {
+          "bars": [1, 8],
+          "drummer": "Jimmy Cobb",
+          "song": "羽毛のように軽いライドと構造アクセントの語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://pas.org/jimmy-cobb-2/",
+            "https://www.jazztimes.com/features/tributes-and-obituaries/jimmy-cobb-1929-2020/"
+          ],
+          "libraryId": "jazz-groove-04",
+          "note": "揺るがない軽いライドで時間を流し、スネア/バスドラは要所のみに置く"
+        }
+      ]
+    },
+    {
+      "title": "Elvin Jones 風 4ビート — キット周回の三連うねりと4対3（8小節）",
+      "file": "jazz-elvin-rollingtriplets-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:04:48.682Z",
+      "references": [
+        {
+          "bars": [1, 6],
+          "drummer": "Elvin Jones",
+          "song": "キット周回の三連うねりと4対3の語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/trading-fours-like-elvin-jones-style-and-analysis/",
+            "https://drummagazine.com/inside-the-drumming-of-elvin-jones/"
+          ],
+          "libraryId": "jazz-build-02",
+          "note": "8分3連を4音セルでキット周回させ3連グリッド上に4対3を浮かべる"
+        }
+      ]
+    },
+    {
       "title": "モダンジャズ 4ビート — F ブルース ドラムソロ（48小節）",
       "file": "jazz-fblues-solo-48bars.alphatex",
       "updatedAt": "2026-06-15T15:29:33.323Z"
+    },
+    {
+      "title": "Roy Haynes 風 4ビート — スナップ＆クラックル（8小節）",
+      "file": "jazz-haynes-snapcrackle-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:01:35.965Z",
+      "references": [
+        {
+          "bars": [1, 8],
+          "drummer": "Roy Haynes",
+          "song": "スナップ＆クラックル（ブロークンタイム）の語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://www.moderndrummer.com/2009/12/roy-haynes-2/",
+            "https://www.jazzdergisi.com/en/roy-haynes-snap-crackle-lakaptan-tiniya/"
+          ],
+          "libraryId": "jazz-groove-02",
+          "note": "ライドを割ってゴーストの crackle とリム/スネアの snap、不意のバスドラを散らす"
+        }
+      ]
+    },
+    {
+      "title": "Shelly Manne 風 4ビート — 旋律的タムのテーマと変奏（8小節）",
+      "file": "jazz-manne-melodictoms-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:04:16.385Z",
+      "references": [
+        {
+          "bars": [1, 7],
+          "drummer": "Shelly Manne",
+          "song": "旋律的タムのテーマと変奏の語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://pas.org/shelly-manne/",
+            "https://jazzprofiles.blogspot.com/2020/08/shelly-manne-anything-but-un-poco-loco.html"
+          ],
+          "libraryId": "jazz-solo-theme-01",
+          "note": "タムを歌う旋律楽器として扱い、テーマを提示して変奏する"
+        }
+      ]
+    },
+    {
+      "title": "Jo Jones 風 4ビート — ハイハット・リードの流れるスイング（8小節）",
+      "file": "jazz-papajo-hihat-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:03:59.820Z",
+      "references": [
+        {
+          "bars": [1, 7],
+          "drummer": "Jo Jones",
+          "song": "ハイハット・リード4ビート（開閉）の語法研究",
+          "fidelity": "idiom",
+          "refs": [
+            "https://www.moderndrummer.com/2009/12/papa-jo-jones/",
+            "https://en.wikipedia.org/wiki/Jo_Jones"
+          ],
+          "libraryId": "jazz-groove-03",
+          "note": "タイムをハイハットへ移し、開閉で長く開いた音の軽い4ビートを流す"
+        }
+      ]
+    },
+    {
+      "title": "Philly Joe Jones 風 4ビート — 4拍目クロススティックと3拍三連ヘミオラ（8小節）",
+      "file": "jazz-phillyjoe-hemiola-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:02:06.905Z",
+      "references": [
+        {
+          "bars": [1, 4],
+          "drummer": "Philly Joe Jones",
+          "song": "Philly lick（4拍目クロススティック）の語法研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/awesome-philly-jo-jones-lick-solo-analysis/"
+          ],
+          "libraryId": "jazz-turnaround-01",
+          "note": "各小節4拍目にクロススティックのアクセント"
+        },
+        {
+          "bars": [5, 7],
+          "drummer": "Philly Joe Jones",
+          "song": "3拍三連フレーズ（ヘミオラ）の語法研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/awesome-philly-jo-jones-lick-solo-analysis/",
+            "http://thatdrumblog.blogspot.com/2022/11/philly-joe-jones-three-beat-triplet.html"
+          ],
+          "libraryId": "jazz-fill-01",
+          "note": "連続三連の9音ごとにアクセントを置き4/4上に3拍周期のヘミオラを作る"
+        }
+      ]
+    },
+    {
+      "title": "Max Roach 風 4ビート — スネア⇄タムのコール&レスポンス（8小節）",
+      "file": "jazz-roach-callresponse-8bars.alphatex",
+      "updatedAt": "2026-06-16T10:05:35.290Z",
+      "references": [
+        {
+          "bars": [1, 2],
+          "drummer": "Max Roach",
+          "song": "スネア⇄タムのコール&レスポンスの語法研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "http://haredrums.blogspot.com/2011/09/max-roach-melodic-architecture-and.html",
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-solo-theme-02",
+          "note": "スネアで問い、タムが答える旋律的コール&レスポンス"
+        },
+        {
+          "bars": [3, 4],
+          "drummer": "Max Roach",
+          "song": "4小節トレードのスタイル研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-trade8-01",
+          "note": "短いモチーフを提示し、次小節で1拍うしろへ変位させて再帰させる"
+        },
+        {
+          "bars": [5, 6],
+          "drummer": "Max Roach",
+          "song": "4小節トレードのスタイル研究",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+          ],
+          "libraryId": "jazz-trade4-01",
+          "note": "アップビート始まりの三連連結句"
+        }
+      ]
     },
     {
       "title": "Max Roach 風 4ビート・トレード ドラムソロ（16小節）",

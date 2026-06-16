@@ -1,0 +1,25 @@
+[
+  {
+    "bars": [1, 4],
+    "drummer": "Philly Joe Jones",
+    "song": "Philly lick（4拍目クロススティック）の語法研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/awesome-philly-jo-jones-lick-solo-analysis/"
+    ],
+    "libraryId": "jazz-turnaround-01",
+    "note": "各小節4拍目にクロススティックのアクセント"
+  },
+  {
+    "bars": [5, 7],
+    "drummer": "Philly Joe Jones",
+    "song": "3拍三連フレーズ（ヘミオラ）の語法研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/awesome-philly-jo-jones-lick-solo-analysis/",
+      "http://thatdrumblog.blogspot.com/2022/11/philly-joe-jones-three-beat-triplet.html"
+    ],
+    "libraryId": "jazz-fill-01",
+    "note": "連続三連の9音ごとにアクセントを置き4/4上に3拍周期のヘミオラを作る"
+  }
+]

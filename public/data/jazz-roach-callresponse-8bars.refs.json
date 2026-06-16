@@ -1,0 +1,36 @@
+[
+  {
+    "bars": [1, 2],
+    "drummer": "Max Roach",
+    "song": "スネア⇄タムのコール&レスポンスの語法研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "http://haredrums.blogspot.com/2011/09/max-roach-melodic-architecture-and.html",
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-solo-theme-02",
+    "note": "スネアで問い、タムが答える旋律的コール&レスポンス"
+  },
+  {
+    "bars": [3, 4],
+    "drummer": "Max Roach",
+    "song": "4小節トレードのスタイル研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-trade8-01",
+    "note": "短いモチーフを提示し、次小節で1拍うしろへ変位させて再帰させる"
+  },
+  {
+    "bars": [5, 6],
+    "drummer": "Max Roach",
+    "song": "4小節トレードのスタイル研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.learnjazzstandards.com/blog/learning-jazz/drums/learning-solo-style-max-roach/"
+    ],
+    "libraryId": "jazz-trade4-01",
+    "note": "アップビート始まりの三連連結句"
+  }
+]

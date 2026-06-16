@@ -1,0 +1,67 @@
+\title "Buddy Rich 風 4ビート — シングルストロークロールのクレッシェンド（8小節）"
+\subtitle "swing / single-stroke roll crescendo / up / 難"
+\tempo 240
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.4 Kick.4 Kick.4 Kick.4 | // 1 feathered bass
+Kick.4 Kick.4 Kick.4 Kick.4 | // 2
+Kick.4 Kick.4 Kick.4 Kick.4 | // 3
+Kick.4 Kick.4 Kick.4 Kick.4 | // 4
+Kick.4 Kick.4 Kick.4 Kick.4 | // 5
+Kick.4 Kick.4 Kick.4 Kick.4 | // 6
+Kick.4 Kick.4 Kick.4 Kick.4 | // 7
+Kick.4 r.4 r.2 | // 8
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+Snare.8 r.8 Snare.8 r.8 Snare.8 r.8 Snare.8 r.8 | // 1 sparse start
+Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 | // 2 eighth singles
+Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 | // 3 sixteenth singles
+Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 Snare.16 | // 4
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 5 roll crescendo
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 6
+Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | // 7 peak
+Snare.4 r.4 r.2 | // 8 cap
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+r.4 HH.4 r.4 HH.4 | // 5
+r.4 HH.4 r.4 HH.4 | // 6
+r.4 HH.4 r.4 HH.4 | // 7
+r.1 | // 8
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+r.1 | // 8
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
+Crash.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
+Crash.4 r.4 r.2 | // 8 cap

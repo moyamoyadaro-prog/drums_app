@@ -1,0 +1,68 @@
+\title "Jo Jones 風 4ビート — ハイハット・リードの流れるスイング（8小節）"
+\subtitle "swing / hi-hat led time, open & close / medium / 中"
+\tempo 170
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+Kick.4 r.4 r.2 | // 8
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.1 | // 1
+r.4 r.4 Snare.8 r.8 r.4 | // 2 light comp
+r.1 | // 3
+r.4 Snare.8 r.8 r.4 r.4 | // 4
+r.1 | // 5
+r.4 r.4 r.4 Snare.8 r.8 | // 6
+Snare.8 Snare.8 Snare.8 Snare.8 r.4 r.4 | // 7 small fill
+Snare.4 r.4 r.2 | // 8 cap
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+\articulation OpenHH 46
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 1 hi-hat led, open on upbeats
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 2
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 3
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 4
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 5
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 6
+HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 HH.8 OpenHH.8 | // 7
+OpenHH.4 r.4 r.2 | // 8 cap
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+r.1 | // 8
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+r.1 | // 1 time is on the hi-hat
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+Crash.4 r.4 r.2 | // 8 cap

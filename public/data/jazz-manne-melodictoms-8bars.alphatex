@@ -1,0 +1,67 @@
+\title "Shelly Manne 風 4ビート — 旋律的タムのテーマと変奏（8小節）"
+\subtitle "swing / melodic toms, theme & variation / medium / 中"
+\tempo 165
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+Kick.4 r.4 r.2 | // 8
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+Snare.4 r.4 r.2 | // 8 cap
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+r.4 HH.4 r.4 HH.4 | // 5
+r.4 HH.4 r.4 HH.4 | // 6
+r.4 HH.4 r.4 HH.4 | // 7
+r.1 | // 8
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+HiTom.4 MidTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 1 theme
+HiTom.8 HiTom.8 MidTom.4 FloorTom.8 MidTom.8 HiTom.4 | // 2 variation
+HiTom.4 MidTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 3 theme restated
+MidTom.8 HiTom.8 MidTom.8 FloorTom.8 FloorTom.4 HiTom.4 | // 4 variation 2
+HiTom.8 MidTom.8 HiTom.8 MidTom.8 FloorTom.4 HiTom.4 | // 5 theme higher
+FloorTom.8 MidTom.8 HiTom.8 MidTom.8 HiTom.4 r.4 | // 6 inversion
+HiTom.8 MidTom.8 FloorTom.8 HiTom.8 MidTom.8 FloorTom.8 HiTom.8 MidTom.8 | // 7 running line
+HiTom.4 r.4 r.2 | // 8 cap
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+r.1 | // 1 colour over toms; ride sparse
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.1 | // 6
+r.1 | // 7
+Crash.4 r.4 r.2 | // 8 cap

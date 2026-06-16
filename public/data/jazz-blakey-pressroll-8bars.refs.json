@@ -1,0 +1,23 @@
+[
+  {
+    "bars": [1, 4],
+    "drummer": "Art Blakey",
+    "song": "三連アクセント移動の語法研究",
+    "fidelity": "idiom",
+    "refs": ["https://www.drumeo.com/beat/art-blakey-drum-grooves/"],
+    "libraryId": "jazz-trade4-03",
+    "note": "2・4ハイハットの上で三連アクセントを拍ごとにずらす"
+  },
+  {
+    "bars": [5, 6],
+    "drummer": "Art Blakey",
+    "song": "クレッシェンド・プレスロールの語法研究",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.moderndrummer.com/2009/12/art-blakey/",
+      "https://scottkfish.com/2016/04/24/art-blakeys-press-roll-its-the-way-i-feel/"
+    ],
+    "libraryId": "jazz-build-01",
+    "note": "静かな震えから爆発へ育つプレスロール（8分3連→16分3連で近似）"
+  }
+]
