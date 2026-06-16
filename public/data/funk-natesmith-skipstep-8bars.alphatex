@@ -1,5 +1,5 @@
 \title "Nate Smith 風 ファンク — メトリック・スキップとゴースト絨毯（8小節, 4/4↔9/8）"
-\subtitle "straight-16 / displaced backbeat + ghost carpet, 4/4<->9/8 skip / 難"
+\subtitle "straight-16 / ghosted displaced backbeat, 4/4<->9/8 skip, dynamics / 難"
 \tempo 112
 .
 \track "Kick"
@@ -7,58 +7,58 @@
 \clef neutral
 \articulation Kick 36
 \ts 4 4
-Kick.16 r.16 r.16 Kick.16 r.16 r.16 Kick.16 r.16 r.16 r.16 Kick.16 r.16 r.16 r.16 r.16 Kick.16 | // 1
+Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 | // 1
 \ts 9 8
-Kick.8 r.8 r.8 Kick.8 r.8 r.8 Kick.8 r.8 r.8 | // 2 skip
+Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 | // 2 skip
 \ts 4 4
-Kick.16 r.16 r.16 Kick.16 r.16 r.16 Kick.16 r.16 r.16 r.16 Kick.16 r.16 r.16 r.16 r.16 Kick.16 | // 3
+Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 | // 3
 \ts 9 8
-Kick.8 r.8 r.8 Kick.8 r.8 r.8 Kick.8 r.8 r.8 | // 4 skip
+Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 | // 4 skip
 \ts 4 4
-Kick.16 r.16 Kick.16 r.16 r.16 r.16 Kick.16 r.16 r.16 Kick.16 r.16 r.16 Kick.16 r.16 r.16 r.16 | // 5
+Kick.16{dy f} r.16 Kick.16{dy f} r.16 r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 Kick.16{dy f} r.16 r.16 r.16 | // 5
 \ts 9 8
-Kick.8 r.8 Kick.8 r.8 r.8 Kick.8 r.8 Kick.8 r.8 | // 6 skip
+Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 Kick.8{dy f} r.8 r.8 | // 6 skip
 \ts 4 4
-Kick.4 r.4 Kick.4 r.4 | // 7 anchor under burst
-Kick.4 r.4 r.2 | // 8 cap
+Kick.4{dy f} r.4 Kick.4{dy f} r.4 | // 7 anchor under burst
+Kick.4{dy f} r.4 r.2 | // 8 cap
 \track "Snare"
 \instrument percussion
 \clef neutral
 \articulation Snare 38
 \ts 4 4
-r.16 Snare.16 r.16 r.16 Snare.16 r.16 r.16 Snare.16 r.16 r.16 r.16 Snare.16 r.16 r.16 Snare.16 r.16 | // 1 displaced backbeat + ghosts
+Snare{g}.16{dy ppp} Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy ppp} Snare{ac}.16{dy ff} r.16 Snare{g}.16{dy ppp} r.16 r.16 Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy ppp} Snare{ac}.16{dy ff} r.16 Snare{g}.16{dy ppp} Snare{g}.16{dy ppp} | // 1 ghost carpet + backbeat
 \ts 9 8
-r.8 Snare.8 r.8 Snare.8 r.8 r.8 Snare.8 r.8 Snare.8 | // 2
+Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 | // 2
 \ts 4 4
-r.16 Snare.16 r.16 r.16 Snare.16 r.16 r.16 Snare.16 r.16 r.16 r.16 Snare.16 r.16 r.16 Snare.16 r.16 | // 3
+Snare{g}.16{dy ppp} Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy ppp} Snare{ac}.16{dy ff} r.16 Snare{g}.16{dy ppp} r.16 r.16 Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy ppp} Snare{ac}.16{dy ff} r.16 Snare{g}.16{dy ppp} Snare{g}.16{dy ppp} | // 3
 \ts 9 8
-r.8 Snare.8 r.8 Snare.8 r.8 r.8 Snare.8 r.8 Snare.8 | // 4
+Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 | // 4
 \ts 4 4
-Snare.16 Snare.16 r.16 Snare.16 r.16 Snare.16 Snare.16 r.16 Snare.16 r.16 Snare.16 Snare.16 r.16 Snare.16 r.16 Snare.16 | // 5 denser ghost carpet
+Snare{g}.16{dy ppp} Snare{g}.16{dy pp} r.16 Snare{g}.16{dy ppp} Snare{ac}.16{dy ff} Snare{g}.16{dy ppp} Snare{g}.16{dy pp} r.16 Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy pp} Snare{ac}.16{dy ff} r.16 Snare{g}.16{dy ppp} r.16 Snare{g}.16{dy pp} | // 5 displaced (early) backbeat
 \ts 9 8
-r.8 Snare.8 Snare.8 r.8 Snare.8 r.8 Snare.8 r.8 Snare.8 | // 6
+Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 Snare{g}.8{dy ppp} Snare{ac}.8{dy ff} r.8 | // 6
 \ts 4 4
-Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} Snare.16{tu 6} | // 7 sextuplet ghost burst
-Snare.4 r.4 r.2 | // 8 cap
+Snare.16{tu 6 dy pp} Snare.16{tu 6 dy pp} Snare.16{tu 6 dy pp} Snare.16{tu 6 dy pp} Snare.16{tu 6 dy pp} Snare.16{tu 6 dy pp} Snare.16{tu 6 dy p} Snare.16{tu 6 dy p} Snare.16{tu 6 dy p} Snare.16{tu 6 dy p} Snare.16{tu 6 dy p} Snare.16{tu 6 dy p} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy mf} Snare.16{tu 6 dy ff} Snare.16{tu 6 dy ff} Snare.16{tu 6 dy ff} Snare.16{tu 6 dy ff} Snare.16{tu 6 dy ff} Snare.16{tu 6 dy ff} | // 7 sextuplet crescendo burst
+Snare{hac}.4{dy ff} r.4 r.2 | // 8 cap
 \track "HiHat"
 \instrument percussion
 \clef neutral
 \articulation HH 42
 \articulation OpenHH 46
 \ts 4 4
-HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 | // 1
+HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} | // 1
 \ts 9 8
-HH.8 HH.8 OpenHH.8 HH.8 HH.8 HH.8 HH.8 OpenHH.8 HH.8 | // 2
+HH.8{dy f} HH.8{dy p} OpenHH.8{dy f} HH.8{dy f} HH.8{dy p} HH.8{dy p} HH.8{dy f} OpenHH.8{dy f} HH.8{dy p} | // 2
 \ts 4 4
-HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 | // 3
+HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} | // 3
 \ts 9 8
-HH.8 HH.8 OpenHH.8 HH.8 HH.8 HH.8 HH.8 OpenHH.8 HH.8 | // 4
+HH.8{dy f} HH.8{dy p} OpenHH.8{dy f} HH.8{dy f} HH.8{dy p} HH.8{dy p} HH.8{dy f} OpenHH.8{dy f} HH.8{dy p} | // 4
 \ts 4 4
-HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 HH.16 OpenHH.16 HH.16 | // 5
+HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} HH.16{dy f} HH.16{dy p} HH.16{dy p} HH.16{dy p} HH.16{dy f} HH.16{dy p} OpenHH.16{dy f} HH.16{dy p} | // 5
 \ts 9 8
-HH.8 HH.8 OpenHH.8 HH.8 HH.8 HH.8 HH.8 OpenHH.8 HH.8 | // 6
+HH.8{dy f} HH.8{dy p} OpenHH.8{dy f} HH.8{dy f} HH.8{dy p} HH.8{dy p} HH.8{dy f} OpenHH.8{dy f} HH.8{dy p} | // 6
 \ts 4 4
-HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 | // 7
+HH.8{dy f} HH.8{dy p} HH.8{dy f} HH.8{dy p} HH.8{dy f} HH.8{dy p} HH.8{dy f} HH.8{dy p} | // 7
 r.1 | // 8
 \track "Toms"
 \instrument percussion
@@ -87,7 +87,7 @@ r.1 | // 8
 \articulation Crash 49
 \articulation Ride 51
 \ts 4 4
-Crash.4 r.4 r.2 | // 1 crash head
+Crash.4{dy ff} r.4 r.2 | // 1 crash head
 \ts 9 8
 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 | // 2
 \ts 4 4
@@ -95,9 +95,9 @@ r.1 | // 3
 \ts 9 8
 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 | // 4
 \ts 4 4
-Crash.4 r.4 r.2 | // 5 crash head
+Crash.4{dy ff} r.4 r.2 | // 5 crash head
 \ts 9 8
 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 r.8 | // 6
 \ts 4 4
 r.1 | // 7
-Crash.4 r.4 r.2 | // 8 cap
+Crash.4{dy ff} r.4 r.2 | // 8 cap
