@@ -11,7 +11,7 @@
 //
 // Exits 1 if any error is found so it can gate CI and the /gen-solo workflow.
 // Usage: node scripts/validate-data.mjs   (npm run data:validate)
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as alphaTab from '@coderline/alphatab';
 
@@ -19,6 +19,8 @@ const DATA_DIR = join(process.cwd(), 'public', 'data');
 
 const errors = [];
 const warnings = [];
+
+const FIDELITY = new Set(['transcribed', 'paraphrase', 'idiom']);
 
 /** Formats a diagnostic's source location as `line:col`, when available. */
 function locOf(diagnostic) {
@@ -83,6 +85,47 @@ function checkBars(file, score) {
   }
 }
 
+/**
+ * Validates a solo's `<base>.refs.json` provenance sidecar (if present): JSON
+ * array shape, bar ranges within the score, required attribution fields, and a
+ * known fidelity. Keeps the data:validate gate covering provenance too.
+ */
+function checkReferences(file, score) {
+  const base = file.replace(/\.alphatex$/, '');
+  const refsPath = join(DATA_DIR, `${base}.refs.json`);
+  if (!existsSync(refsPath)) return;
+  let refs;
+  try {
+    refs = JSON.parse(readFileSync(refsPath, 'utf8'));
+  } catch (err) {
+    errors.push(`${base}.refs.json invalid JSON: ${err?.message ?? err}`);
+    return;
+  }
+  if (!Array.isArray(refs)) {
+    errors.push(`${base}.refs.json must be a JSON array`);
+    return;
+  }
+  const barCount = score.tracks[0]?.staves[0]?.bars.length ?? 0;
+  refs.forEach((ref, i) => {
+    const where = `${base}.refs.json[${i}]`;
+    if (!ref || typeof ref !== 'object') {
+      errors.push(`${where} must be an object`);
+      return;
+    }
+    const { bars, drummer, song, fidelity } = ref;
+    if (!Array.isArray(bars) || bars.length !== 2 || !bars.every(Number.isInteger)) {
+      errors.push(`${where} needs "bars": [start, end] integers`);
+    } else if (bars[0] < 1 || bars[1] > barCount || bars[0] > bars[1]) {
+      errors.push(`${where} bars ${bars[0]}-${bars[1]} out of range 1-${barCount}`);
+    }
+    if (typeof drummer !== 'string' || !drummer) errors.push(`${where} needs string "drummer"`);
+    if (typeof song !== 'string' || !song) errors.push(`${where} needs string "song"`);
+    if (!FIDELITY.has(fidelity)) {
+      errors.push(`${where} "fidelity" must be one of transcribed|paraphrase|idiom`);
+    }
+  });
+}
+
 function validateFiles() {
   const files = readdirSync(DATA_DIR)
     .filter((name) => name.endsWith('.alphatex'))
@@ -97,6 +140,7 @@ function validateFiles() {
     const score = parseScore(file, tex);
     if (score) {
       checkBars(file, score);
+      checkReferences(file, score);
     }
   }
   return files;

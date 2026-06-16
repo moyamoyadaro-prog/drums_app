@@ -3,7 +3,8 @@ import { fetchAlphaTex, fetchManifest } from './dataSource';
 import { LocalMedia } from './media';
 import { DrumPlayer, type TrackInfo } from './player';
 import { downloadBlob, renderMixToWav } from './recorder';
-import type { ManifestItem } from './types';
+import { formatReference } from './references';
+import type { ManifestItem, Reference } from './types';
 import { parseYouTubeId, YouTubePlayer } from './youtube';
 
 function el<T extends HTMLElement>(id: string): T {
@@ -25,6 +26,8 @@ const masterInput = el<HTMLInputElement>('master');
 const masterOut = el<HTMLOutputElement>('master-out');
 const mixerSection = el('mixer');
 const mixerTracks = el('mixer-tracks');
+const refsSection = el('refs');
+const refsList = el<HTMLUListElement>('refs-list');
 
 const mediaFileInput = el<HTMLInputElement>('media-file');
 const mediaClearBtn = el<HTMLButtonElement>('media-clear');
@@ -94,11 +97,38 @@ function renderMixer(tracks: TrackInfo[]): void {
   mixerSection.hidden = tracks.length === 0;
 }
 
+/** Shows whose phrases a generated solo recognizably borrows from (read-only). */
+function renderReferences(references: Reference[] | undefined): void {
+  refsList.replaceChildren();
+  const items = references ?? [];
+  for (const ref of items) {
+    const li = document.createElement('li');
+    li.className = 'refs-item';
+
+    const text = document.createElement('span');
+    text.textContent = formatReference(ref);
+    li.append(text);
+
+    for (const url of ref.refs ?? []) {
+      const link = document.createElement('a');
+      link.className = 'refs-link';
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = '出典';
+      li.append(document.createTextNode(' '), link);
+    }
+    refsList.append(li);
+  }
+  refsSection.hidden = items.length === 0;
+}
+
 async function selectSong(item: ManifestItem, button: HTMLButtonElement): Promise<void> {
   for (const active of songList.querySelectorAll('.is-active')) {
     active.classList.remove('is-active');
   }
   button.classList.add('is-active');
+  renderReferences(item.references);
   setStatus(`「${item.title}」を読み込み中…`);
   try {
     player.loadTex(await fetchAlphaTex(item.file));

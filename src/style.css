@@ -173,6 +173,36 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.refs {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.refs h2 {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.25rem 0;
+}
+
+.refs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.refs-item {
+  font-size: 0.85rem;
+}
+
+.refs-link {
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+}
+
 .playalong,
 .record {
   padding: 0.5rem 1rem;
