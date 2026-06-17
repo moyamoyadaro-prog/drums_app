@@ -294,12 +294,22 @@ button:disabled {
 
 .at-wrap {
   flex: 1;
+  /* Bound the width so alphaTab measures a stable container. Without min-width:0
+     a flex item grows to its (huge) content width, and alphaTab lays the whole
+     score out on one line instead of wrapping. */
+  min-width: 0;
+  max-width: 100%;
   overflow: auto;
+  /* Padding lives on the scroll container, NOT on #at-main: padding on alphaTab's
+     own render element feeds back into its width measurement (+32px every
+     re-render → an unbounded render loop that never settles on mobile). */
+  padding: 1rem;
   background: #ffffff;
 }
 
 #at-main {
-  padding: 1rem;
+  /* No padding/border here: this element's size is measured by alphaTab. */
+  min-width: 0;
 }
 
 @media (max-width: 720px) {
