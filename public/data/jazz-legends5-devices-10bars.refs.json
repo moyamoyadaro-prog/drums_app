@@ -1,0 +1,62 @@
+[
+  {
+    "bars": [1, 2],
+    "drummer": "Gene Krupa",
+    "song": "Sing, Sing, Sing (with a Swing)",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.totaldrummer.com/how-to-play-sing-sing-sing-on-drums/",
+      "https://en.wikipedia.org/wiki/Sing,_Sing,_Sing_(with_a_Swing)"
+    ],
+    "libraryId": "jazz-groove-06",
+    "note": "フロアタムのスウィング・ジャングルビート＋バックビートと四つ打ちバスドラ"
+  },
+  {
+    "bars": [3, 4],
+    "drummer": "Tony Williams",
+    "song": "ハイハット4ビート踏み＋ブロークンライド（一般語法）",
+    "fidelity": "idiom",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Tony_Williams_(drummer)",
+      "https://jazzprofiles.blogspot.com/2018/10/tony-williams-1945-1997-unpredictable.html"
+    ],
+    "libraryId": "jazz-groove-05",
+    "note": "ハイハットを4拍すべてで踏み、ライドを脈動的に前へ押す"
+  },
+  {
+    "bars": [5, 6],
+    "drummer": "Ed Blackwell",
+    "song": "ニューオーリンズ・セカンドライン／マーチ（一般語法）",
+    "fidelity": "idiom",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Ed_Blackwell",
+      "https://www.britannica.com/biography/Edward-Joseph-Blackwell"
+    ],
+    "libraryId": "jazz-groove-07",
+    "note": "1・3アクセントの16分パレード・ケイデンス＋バズロール＋旋律タムの応答"
+  },
+  {
+    "bars": [7, 8],
+    "drummer": "Joe Morello",
+    "song": "Take Five",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://drummagazine.com/joe-morellos-take-five-drum-part/",
+      "https://en.wikipedia.org/wiki/Take_Five"
+    ],
+    "libraryId": "jazz-solo-theme-03",
+    "note": "5/4『3＋2』のライド／クロススティック土台と16分クレッシェンド動機"
+  },
+  {
+    "bars": [9, 10],
+    "drummer": "Jack DeJohnette",
+    "song": "多方向（マルチディレクショナル）プレイ（一般語法）",
+    "fidelity": "idiom",
+    "refs": [
+      "https://www.jazztimes.com/features/tributes-and-obituaries/jack-dejohnette-jazz-drummings-surround-sound-of-thunder-dies-at-83/",
+      "https://pas.org/jack-dejohnette/"
+    ],
+    "libraryId": "jazz-solo-theme-04",
+    "note": "時間をキット全体へ配分し、スネア⇄タムで連続する旋律線を歌わせる"
+  }
+]

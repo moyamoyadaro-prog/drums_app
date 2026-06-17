@@ -329,3 +329,120 @@ Kick:    r.1 | r.4 r.4 r.4 Kick.4
 Snare: Snare.8 Snare.8 Snare.4 r.4 r.4 | Snare.8 r.8 Snare.8 Snare.8 r.4 r.4
 Toms:  r.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | r.4 r.4 HiTom.8 HiTom.8 FloorTom.8 FloorTom.8
 ```
+
+## jazz-groove-05 — ハイハットを4ビート全拍で踏む＋脈動するブロークンライド（Tony Williams）
+- genre: jazz
+- scene: groove
+- feel: swing
+- tempo: 200-340
+- difficulty: 難
+- bars: 1
+- drummer: Tony Williams
+- source: reference:tony-williams-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Tony_Williams_(drummer) https://jazzprofiles.blogspot.com/2018/10/tony-williams-1945-1997-unpredictable.html
+- added: 2026-06-18
+
+ハイハットを 2・4 の伝統的役割から解放し**4拍すべてで踏み**、タイムをライドへ寄せて軽い〜混んだ
+テクスチャを行き来させる Williams の革新。ライドは脈動的（ストレート8寄り）に前へ押す。特定ソロの写しではない
+一般語法なので idiom。ライドは Cymbals に置く。
+
+```
+HiHat:   HH.4 HH.4 HH.4 HH.4
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} Ride.8{tu 3} Ride.8{tu 3}
+```
+
+## jazz-groove-06 — フロアタムのスウィング・ジャングルビート（Gene Krupa「Sing, Sing, Sing」）
+- genre: jazz
+- scene: groove
+- feel: shuffle
+- tempo: 140-220
+- difficulty: 中
+- bars: 1
+- drummer: Gene Krupa
+- source: reference:gene-krupa-singsingsing
+- fidelity: paraphrase
+- refs: https://www.totaldrummer.com/how-to-play-sing-sing-sing-on-drums/ https://en.wikipedia.org/wiki/Sing,_Sing,_Sing_(with_a_Swing)
+- added: 2026-06-18
+
+各拍でフロアタムをスウィング（3連扱い）した単打ロールに、拍頭アクセントとバックビートのスネア、
+土台の四つ打ちバスドラを重ねる Krupa の象徴的ジャングルビート（商業録音初の拡張ドラムソロ）。
+具体音価は近似なので paraphrase。
+
+```
+Toms:  FloorTom{ac}.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} FloorTom.8{tu 3}
+Snare: r.4 Snare{ac}.4 r.4 Snare{ac}.4
+Kick:  Kick.4 Kick.4 Kick.4 Kick.4
+```
+
+## jazz-groove-07 — セカンドライン／パレード・マーチの行進ケイデンス（Ed Blackwell）
+- genre: jazz
+- scene: groove
+- feel: straight-16
+- tempo: 100-180
+- difficulty: 中
+- bars: 2
+- drummer: Ed Blackwell
+- source: reference:ed-blackwell-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Ed_Blackwell https://www.britannica.com/biography/Edward-Joseph-Blackwell
+- added: 2026-06-18
+
+ニューオーリンズのセカンドライン／マーチ語法をジャズに持ち込んだ Blackwell の流儀。1・3 にアクセント、
+16分のルーディメンタルなスネア・ケイデンス＋バズロール、行進のバスドラ、そしてタムで「歌う」応答。
+特定ソロの写しではない一般語法なので idiom。
+
+```
+Snare: Snare{ac}.16 Snare.16 Snare.16 Snare.16 Snare.8 r.8 Snare{ac}.16 Snare.16 Snare.16 Snare.16 Snare.8 r.8 | Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} r.2
+Toms:  r.1 | r.2 HiTom.8 MidTom.8 FloorTom.8 FloorTom.8
+Kick:  Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4
+```
+
+## jazz-solo-theme-03 — 5/4「3＋2」グルーヴと16分クレッシェンドの提示（Joe Morello「Take Five」）
+- genre: jazz
+- scene: solo-theme
+- feel: swing
+- tempo: 160-200
+- difficulty: 難
+- bars: 2
+- drummer: Joe Morello
+- source: reference:joe-morello-takefive
+- fidelity: paraphrase
+- refs: https://drummagazine.com/joe-morellos-take-five-drum-part/ https://en.wikipedia.org/wiki/Take_Five
+- added: 2026-06-18
+
+**5/4（再利用側で `\ts 5 4` 前提）**。1拍目と4拍目をアクセントして 3＋2 にグルーピングするライド／
+クロススティックの土台（1小節目）に、Morello のソロ冒頭を特徴づける**16分のクレッシェンド動機**を
+タム着地で展開する（2小節目）。空間とモチーフ展開の語法。具体音は近似なので paraphrase。
+
+```
+Cymbals: Ride{ac}.4 Ride.4 Ride.4 Ride{ac}.4 Ride.4 | r.2 r.2 r.4
+Snare:   r.4 SideStick.4 r.4 r.4 SideStick.4 | Snare.16{dy ppp} Snare.16{dy ppp} Snare.16{dy pp} Snare.16{dy pp} Snare.16{dy p} Snare.16{dy p} Snare.16{dy mp} Snare.16{dy mp} Snare.16{dy mf} Snare.16{dy mf} Snare.16{dy f} Snare.16{dy f} Snare{ac}.8{dy ff} r.8 r.4
+HiHat:   r.4 HH.4 r.4 HH.4 r.4 | r.4 HH.4 r.4 HH.4 r.4
+Toms:    r.2 r.2 r.4 | r.2 r.4 HiTom{ac}.8 r.8 FloorTom{ac}.4
+```
+
+## jazz-solo-theme-04 — キット全体に時間と旋律を散らす多方向プレイ（Jack DeJohnette）
+- genre: jazz
+- scene: solo-theme
+- feel: swing
+- tempo: 160-260
+- difficulty: 難
+- bars: 2
+- drummer: Jack DeJohnette
+- source: reference:jack-dejohnette-idiom
+- fidelity: idiom
+- refs: https://www.jazztimes.com/features/tributes-and-obituaries/jack-dejohnette-jazz-drummings-surround-sound-of-thunder-dies-at-83/ https://pas.org/jack-dejohnette/
+- added: 2026-06-18
+
+タイムをライド一点に集めず**キット全体へ配分**し、連続する8分の旋律をスネア⇄タムへ移し替えて
+「歌う」DeJohnette の多方向語法（ピアノ的アプローチ）。ライド／ハイハットは時間を刻まず色付けに回る。
+特定ソロの写しではない一般語法なので idiom。スネアとタムの合成で連続旋律になる。
+
+```
+Snare: Snare.8 r.8 Snare.8 r.8 r.8 r.8 r.8 Snare.8 | r.8 Snare.8 r.8 Snare.8 r.8 r.8 Snare.8 r.8
+Toms:  r.8 HiTom.8 r.8 MidTom.8 FloorTom.8 MidTom.8 HiTom.8 r.8 | HiTom.8 r.8 MidTom.8 r.8 FloorTom.8 MidTom.8 r.8 FloorTom.8
+Cymbals: r.4 r.8 Ride.8 r.2 | Crash.4 r.4 r.8 Ride.8 r.4
+Kick:  r.4 r.8 Kick.8 r.4 r.8 Kick.8 | Kick.4 r.4 r.8 Kick.8 r.4
+HiHat: r.2 OpenHH.4 r.4 | r.2 OpenHH.4 r.4
+```
