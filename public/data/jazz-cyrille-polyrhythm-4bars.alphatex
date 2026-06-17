@@ -1,0 +1,30 @@
+\title "Andrew Cyrille 風 — 3対4のポリリズム（4小節）"
+\subtitle "free / 3-against-4 polyrhythm / 難"
+\tempo 180
+.
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4 | // 1 the "4"
+Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4 | // 2
+Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4 | // 3
+Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4 | // 4
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 1 the "3"
+HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 2
+FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 3 melodic variation
+HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+r.2 Ride.4 r.4 | // 1
+r.2 Ride.4 r.4 | // 2
+r.2 Ride.4 r.4 | // 3
+r.2 Ride.4 r.4 | // 4

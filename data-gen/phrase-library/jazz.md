@@ -446,3 +446,371 @@ Cymbals: r.4 r.8 Ride.8 r.2 | Crash.4 r.4 r.8 Ride.8 r.4
 Kick:  r.4 r.8 Kick.8 r.4 r.8 Kick.8 | Kick.4 r.4 r.8 Kick.8 r.4
 HiHat: r.2 OpenHH.4 r.4 | r.2 OpenHH.4 r.4
 ```
+
+## jazz-fill-02 — バンドを蹴り出す爆発的ブレイク（Chick Webb）
+- genre: jazz
+- scene: build
+- feel: swing
+- tempo: 180-280
+- difficulty: 難
+- bars: 2
+- drummer: Chick Webb
+- source: reference:chick-webb-idiom
+- fidelity: idiom
+- refs: https://www.moderndrummer.com/2009/12/chick-webb/ https://swingandbeyond.com/2025/02/16/stomping-at-the-savoy-1934-chick-webb-edgar-sampson-and-benny-goodman-edgar-sampson-1936/
+- added: 2026-06-18
+
+スウィングの土台から、choppy（上下に切る）な同期アクセントをスネア⇄タムへ散らしバスドラの爆弾で締め、
+バンドを蹴り出す Webb の攻撃的ブレイク。最初期の真のドラム・アイドルの煽り語法。一般語法なので idiom。
+
+```
+Snare: Snare{ac}.8 r.8 Snare{ac}.8 Snare.8 Snare{ac}.4 r.4 | Snare{ac}.8 Snare.8 Snare{ac}.8 r.8 Snare{ac}.4 r.4
+Toms:  r.2 HiTom{ac}.8 r.8 FloorTom{ac}.4 | HiTom{ac}.8 r.8 FloorTom{ac}.8 r.8 r.2
+Kick:  Kick.4 r.4 r.4 Kick.4 | r.2 Kick.4 Kick.4
+Cymbals: r.1 | r.2 r.4 Crash.4
+```
+
+## jazz-solo-theme-05 — 主題提示→ロール急増→間→タム織り→弱奏で解決（Big Sid Catlett）
+- genre: jazz
+- scene: solo-theme
+- feel: swing
+- tempo: 160-240
+- difficulty: 難
+- bars: 4
+- drummer: Sid Catlett
+- source: reference:sid-catlett-idiom
+- fidelity: idiom
+- refs: https://www.moderndrummer.com/2010/03/sidney-big-sid-catlett/ https://en.wikipedia.org/wiki/Sid_Catlett
+- added: 2026-06-18
+
+主題を立て、うねるスネアロールが急増してリムショットで弾け、劇的な「間」、タムを織って進み、
+ピアニッシモ／ハーフタイムの低音で解決する Catlett の作曲的ソロ。バスドラの爆弾も交える。
+スウィングとバップの橋渡し。一般語法なので idiom。
+
+```
+Snare: Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare{ac}.8 Snare{ac}.8 r.4 | r.1 | r.1 | r.1
+Toms:  r.1 | r.1 | HiTom.8 MidTom.8 FloorTom.8 MidTom.8 HiTom.8 FloorTom.8 r.4 | r.2 HiTom.8 MidTom.8 FloorTom.4
+Kick:  r.2 Kick.4 r.4 | r.2 Kick.4 r.4 | r.1 | Kick.4 r.4 Kick.4 r.4
+HiHat: r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4
+```
+
+## jazz-solo-theme-06 — マレット風タムの異国色とゴング的クラッシュ（Sonny Greer）
+- genre: jazz
+- scene: solo-theme
+- feel: latin
+- tempo: 120-180
+- difficulty: 中
+- bars: 4
+- drummer: Sonny Greer
+- source: reference:sonny-greer-idiom
+- fidelity: idiom
+- refs: https://www.moderndrummer.com/2010/01/sonny-greer/ https://en.wikipedia.org/wiki/Sonny_Greer
+- added: 2026-06-18
+
+タイムを刻むより「色（colour）」を描く Greer。マレット風のタム旋律で異国情緒（Caravan 的ラテン）を作り、
+ゴング／クラッシュで層を重ねる Ellington 楽団のカラリスト語法。ラテンのバスドラ・オスティナート上に乗せる。
+一般語法なので idiom。
+
+```
+Toms:  FloorTom.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | MidTom.4 r.4 FloorTom.8 MidTom.8 HiTom.4 | FloorTom.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | HiTom.8 MidTom.8 FloorTom.8 MidTom.8 HiTom.4 r.4
+Cymbals: Crash.4 r.2 r.4 | r.1 | Crash.4 r.2 r.4 | r.2 r.4 Crash.4
+Kick:  Kick.4 r.8 Kick.8 r.4 Kick.4 | Kick.4 r.8 Kick.8 r.4 Kick.4 | Kick.4 r.8 Kick.8 r.4 Kick.4 | Kick.4 r.8 Kick.8 r.4 Kick.4
+HiHat: r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4
+```
+
+## jazz-solo-theme-07 — 8分タム・オスティナート→鋭いスネア三連図形（Cozy Cole「Topsy」）
+- genre: jazz
+- scene: solo-theme
+- feel: swing
+- tempo: 140-200
+- difficulty: 中
+- bars: 4
+- drummer: Cozy Cole
+- source: reference:cozy-cole-topsy
+- fidelity: paraphrase
+- refs: https://en.wikipedia.org/wiki/Cozy_Cole https://www.moderndrummer.com/2009/12/william-cozy-cole/
+- added: 2026-06-18
+
+単一タムの8分オスティナートで開始し、アクセントでタム周りを開いていき、やがて鋭いスネア三連図形へ
+（Krupa 譲り）爆発する「Topsy」のソロ構造。協調的独立（coordinated independence）の名手。
+具体音は近似なので paraphrase。
+
+```
+Toms:  FloorTom{ac}.8 FloorTom.8 FloorTom.8 FloorTom.8 FloorTom{ac}.8 FloorTom.8 FloorTom.8 FloorTom.8 | FloorTom{ac}.8 FloorTom.8 MidTom.8 FloorTom.8 HiTom{ac}.8 FloorTom.8 MidTom.8 FloorTom.8 | r.1 | r.2 HiTom{ac}.4 FloorTom{ac}.4
+Snare: r.1 | r.1 | Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.2
+Kick:  Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4
+HiHat: r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4
+```
+
+## jazz-climax-02 — 連続バスドラ上のハンド・ロール（Louie Bellson「Skin Deep」ダブルバス）
+- genre: jazz
+- scene: climax
+- feel: swing
+- tempo: 160-240
+- difficulty: 難
+- bars: 4
+- drummer: Louie Bellson
+- source: reference:louie-bellson-skindeep
+- fidelity: paraphrase
+- refs: https://www.jazztimes.com/news/louie-bellson-rim-shots-double-bass-drums/ https://en.wikipedia.org/wiki/Louie_Bellson
+- added: 2026-06-18
+
+ダブルバスドラム（本アプリは単一 Kick のため**連続16分のバスドラ**で近似）を途切れず流し、その上で
+スネア／タムのアクセントとロールを重ねてクライマックスへ煽る Bellson「Skin Deep」の語法。
+ダブルバス開拓者。具体音は近似なので paraphrase。
+
+```
+Kick:  Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 | Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 | Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 | Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16 Kick.16
+Snare: Snare{ac}.4 r.4 Snare{ac}.4 r.4 | Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 Snare.8 | r.1 | Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare{ac}.4 r.4
+Toms:  r.1 | r.1 | HiTom.8 HiTom.8 MidTom.8 MidTom.8 FloorTom.8 FloorTom.8 r.4 | r.1
+Cymbals: r.1 | r.1 | r.1 | r.2 r.4 Crash.4
+```
+
+## jazz-groove-08 — 弾むアップビート強調ライド＋教会的バックビート（Billy Higgins）
+- genre: jazz
+- scene: groove
+- feel: swing
+- tempo: 160-280
+- difficulty: 中
+- bars: 1
+- drummer: Billy Higgins
+- source: reference:billy-higgins-idiom
+- fidelity: idiom
+- refs: https://www.paiste.com/en/musicians/billy-higgins https://cruiseshipdrummer.com/2011/09/30/billy-higgins-instrument/
+- added: 2026-06-18
+
+誰にも真似できない「弾む（tipping/dancing）」ワイドなライド・ビートで、スキップ（拍裏）を軽く強調し
+前へ転がす Higgins の語法。リベット付きライドのサスティンが土台にクッションを作り、2・4 に教会的な
+クロススティックのバックビートを添える。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3}
+HiHat:   r.4 HH.4 r.4 HH.4
+Snare:   r.4 SideStick{g}.4 r.4 SideStick.4
+```
+
+## jazz-groove-09 — 全拍バスドラ＋一定強度の推進ライド（Art Taylor）
+- genre: jazz
+- scene: groove
+- feel: swing
+- tempo: 180-300
+- difficulty: 中
+- bars: 1
+- drummer: Art Taylor
+- source: reference:art-taylor-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Art_Taylor http://www.drummerworld.com/drummers/Art_Taylor.html
+- added: 2026-06-18
+
+「鍋が沸くように」一定の強度で押す straight-ahead な Taylor。本人が説いた**バスドラを全拍で踏む**土台に
+推進力あるライドとリムショット・アクセントを乗せる（Blakey/Roach 影響）。一般語法なので idiom。
+
+```
+Kick:    Kick.4 Kick.4 Kick.4 Kick.4
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3}
+HiHat:   r.4 HH.4 r.4 HH.4
+Snare:   r.4 Snare{ac}.8 r.8 r.4 Snare{ac}.4
+```
+
+## jazz-groove-10 — 澄んで雑音のない控えめコンピング（Ben Riley）
+- genre: jazz
+- scene: groove
+- feel: swing
+- tempo: 140-260
+- difficulty: 中
+- bars: 2
+- drummer: Ben Riley
+- source: reference:ben-riley-idiom
+- fidelity: idiom
+- refs: https://www.allaboutjazz.com/ben-riley-with-thelonious-monk-ben-riley-by-david-a-orthmann https://www.moderndrummer.com/2017/11/ben-riley-making-history/
+- added: 2026-06-18
+
+リズムにリズムを重ねず、叩きすぎず、クラッシュを伸ばさない——澄んだライドと最小限のゴーストだけで
+「目立たない創意」を作る Monk の名コンパー Riley。空白（休符）が語法の核。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3}
+HiHat:   r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4
+Snare:   r.1 | r.2 Snare{g}.8 r.8 r.4
+```
+
+## jazz-groove-11 — タイムを割る変化ライド＋不意のボム（Mel Lewis）
+- genre: jazz
+- scene: groove
+- feel: swing
+- tempo: 140-240
+- difficulty: 中
+- bars: 2
+- drummer: Mel Lewis
+- source: reference:mel-lewis-idiom
+- fidelity: idiom
+- refs: https://pas.org/mel-lewis/ https://cruiseshipdrummer.com/2013/05/22/mel-lewis-on-cymbals/
+- added: 2026-06-18
+
+ビッグバンドを小編成のように扱い、ハイハットよりライドで**タイムを割って**変化させ、不意の「ボム」を
+落とす Mel Lewis の緩く swing する支え方。押しも引きもせず「支える」。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 r.8{tu 3} Ride.8{tu 3} r.8{tu 3} | Ride.4 r.8{tu 3} Ride.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3}
+HiHat:   r.4 HH.4 r.4 HH.4 | r.4 HH.4 r.4 HH.4
+Kick:    r.4 r.4 r.8 Kick.8 r.4 | r.2 r.8 Kick.8 r.4
+```
+
+## jazz-groove-12 — オルガントリオのソウルジャズ・グルーヴ（Grady Tate）
+- genre: jazz
+- scene: groove
+- feel: shuffle
+- tempo: 100-180
+- difficulty: 中
+- bars: 1
+- drummer: Grady Tate
+- source: reference:grady-tate-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Grady_Tate https://jazztimes.com/features/tributes-and-obituaries/drummer-singer-grady-tate-dies/
+- added: 2026-06-18
+
+オントップで歯切れよく、スウィングする4分ライドにリムショットの細かなシンコペーションを添える Grady Tate の
+ソウルジャズ／オルガントリオ語法。誇示せず groove を最優先、ダイナミクスは抑制。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 Ride.4 Ride.4 Ride.4
+HiHat:   r.4 HH.4 r.4 HH.4
+Snare:   r.4 Snare{ac}.4 r.4 Snare{ac}.4
+Kick:    Kick.4 r.4 r.8 Kick.8 r.4
+```
+
+## jazz-build-04 — 拍を溶かす連続シンバル・ウォッシュと不規則スネア（Sunny Murray）
+- genre: jazz
+- scene: build
+- feel: swing
+- tempo: 120-260
+- difficulty: 難
+- bars: 2
+- drummer: Sunny Murray
+- source: reference:sunny-murray-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Sunny_Murray https://www.allaboutjazz.com/musicians/sunny-murray/
+- added: 2026-06-18
+
+定常拍を捨て、シンバルの縁で鳴り続ける連続スティックワーク、不規則なスネアの連射、散発的なバスドラ
+句読点で「降り止まぬ霰」を作る Murray のパンリズム。ソリストを時間から解放する。一般語法なので idiom。
+規則的バックビートは置かない。
+
+```
+Cymbals: Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 | Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8
+Snare:   r.4 Snare.16 Snare.16 Snare.16 Snare.16 r.4 r.4 | r.2 r.4 Snare.16 Snare.16 Snare.16 Snare.16
+Kick:    r.2 Kick.4 r.4 | r.2 r.4 Kick.4
+```
+
+## jazz-build-05 — 定常拍なしの多方向リズムの奔流（Rashied Ali）
+- genre: jazz
+- scene: build
+- feel: swing
+- tempo: 160-300
+- difficulty: 難
+- bars: 2
+- drummer: Rashied Ali
+- source: reference:rashied-ali-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Rashied_Ali https://en.wikipedia.org/wiki/Interstellar_Space
+- added: 2026-06-18
+
+人間メトロノームの役割を捨て、連続する三連の奔流をスネア⇄タムへ多方向に散らし、シンバルとバスドラを
+自由に句読点として落とす Ali の語法（Coltrane が "multi-directional rhythms" と呼んだ）。一般語法なので idiom。
+
+```
+Snare: Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} | Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} r.8{tu 3}
+Toms:  r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} | r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3} r.8{tu 3} MidTom.8{tu 3} r.8{tu 3} HiTom.8{tu 3} r.8{tu 3} FloorTom.8{tu 3}
+Cymbals: Crash.4 r.2 Ride.4 | r.4 Ride.4 r.4 Ride.4
+Kick:  r.4 Kick.4 r.4 Kick.4 | Kick.4 r.2 r.4
+```
+
+## jazz-build-06 — 3対4のポリリズム（タム3：スネア4）（Andrew Cyrille）
+- genre: jazz
+- scene: build
+- feel: swing
+- tempo: 140-260
+- difficulty: 難
+- bars: 2
+- drummer: Andrew Cyrille
+- source: reference:andrew-cyrille-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Andrew_Cyrille https://www.moderndrummer.com/article/february-2014-andrew-cyrille/
+- added: 2026-06-18
+
+慣習的なタイムキープを離れ、緻密なポリリズムと旋律的タムで音の絵を描く Cyrille（Cecil Taylor 期）。
+三連グリッド上でタムを4音ごとにアクセント（=1小節に3つ）し、スネアのゴースト4分（=4）に重ねて
+3対4を浮かべる。一般語法なので idiom。
+
+```
+Toms:  HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | HiTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} MidTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} FloorTom{ac}.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3}
+Snare: Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4 | Snare{g}.4 Snare{g}.4 Snare{g}.4 Snare{g}.4
+```
+
+## jazz-solo-theme-08 — 浮遊するルバート的ブロークン・ライド（Paul Motian）
+- genre: jazz
+- scene: solo-theme
+- feel: swing
+- tempo: 100-200
+- difficulty: 難
+- bars: 4
+- drummer: Paul Motian
+- source: reference:paul-motian-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Paul_Motian https://cruiseshipdrummer.com/2018/01/20/key-players-paul-motian/
+- added: 2026-06-18
+
+定常拍を刻まず、ブロークンなライド（シズル）と変位したシンコペーションのアクセントが「それ自体が拍」に
+なる、円のように浮かぶ Motian の時間。タムは色として散発的に。隙間（休符）が多い。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 r.8 Ride.8 r.4 Ride.4 | r.4 Ride.8 r.8 Ride.4 r.4 | Ride.8 r.8 r.4 Ride.4 r.4 | r.4 Ride.4 r.8 Ride.8 r.4
+Snare:   r.4 r.8 Snare{g}.8 r.2 | r.2 Snare{g}.8 r.8 r.4 | Snare{g}.8 r.8 r.2 r.4 | r.2 r.4 Snare{g}.8 r.8
+Toms:    r.1 | r.2 r.4 HiTom.4 | r.1 | FloorTom.4 r.2 r.4
+```
+
+## jazz-solo-theme-09 — 行進・サーカス由来のルーディメンタル爆発スネア（Han Bennink）
+- genre: jazz
+- scene: solo-theme
+- feel: straight-16
+- tempo: 100-200
+- difficulty: 難
+- bars: 4
+- drummer: Han Bennink
+- source: reference:han-bennink-idiom
+- fidelity: idiom
+- refs: https://en.wikipedia.org/wiki/Han_Bennink https://www.moderndrummer.com/2008/03/han-bennink/
+- added: 2026-06-18
+
+しばしばスネア1台で現れ、行進・サーカス音楽由来のルーディメンタル（パレード）語法を爆発的に繰り出す
+Bennink。16分の行進図形、フルバーのバズロール、アクセント連打を交え、マーチのバスドラを下敷きにする。
+一般語法なので idiom。
+
+```
+Snare: Snare{ac}.16 Snare.16 Snare.16 Snare.16 Snare{ac}.8 r.8 Snare{ac}.16 Snare.16 Snare.16 Snare.16 Snare{ac}.8 r.8 | Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} | Snare{ac}.8 Snare.8 Snare{ac}.8 Snare.8 Snare{ac}.8 Snare.8 Snare{ac}.8 Snare.8 | Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare.16{tu 3} Snare{ac}.4 r.4
+Kick:  Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4 | Kick.4 r.4 Kick.4 r.4
+```
+
+## jazz-build-07 — パワー・スウィング＋3対4のバスと変位スネア（Jeff "Tain" Watts）
+- genre: jazz
+- scene: build
+- feel: swing
+- tempo: 180-300
+- difficulty: 難
+- bars: 4
+- drummer: Jeff Watts
+- source: reference:jeff-tain-watts-idiom
+- fidelity: idiom
+- refs: https://www.jazztimes.com/features/profiles/jeff-tain-watts-how-he-revolutionized-jazz-drumming/ https://drummagazine.com/jeff-watts-soul-of-a-drummer-mind-of-a-composer/
+- added: 2026-06-18
+
+スウィング・ライド（4）の上にバスドラを三連グリッドで4音ごと（=1小節に3つ）置いて 3対4 を作り、
+スネアのバックビートを小節ごとに変位させる Watts のポリリズム／メトリック・モジュレーション語法。
+ドラムが独自の声で答える。一般語法なので idiom。
+
+```
+Cymbals: Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3}
+HiHat:   r.4 HH.4 r.4 HH.4
+Kick:    Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3}
+Snare:   r.4 Snare{ac}.4 r.4 Snare{ac}.4
+```

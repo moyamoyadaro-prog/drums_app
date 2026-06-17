@@ -1,0 +1,14 @@
+[
+  {
+    "bars": [1, 4],
+    "drummer": "Cozy Cole",
+    "song": "Topsy (Pt. 2)",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://en.wikipedia.org/wiki/Cozy_Cole",
+      "https://www.moderndrummer.com/2009/12/william-cozy-cole/"
+    ],
+    "libraryId": "jazz-solo-theme-07",
+    "note": "単一タムの8分オスティナートで開始しタム周りを開く→鋭いスネア三連図形へ展開、というTopsyのソロ構造を近似"
+  }
+]

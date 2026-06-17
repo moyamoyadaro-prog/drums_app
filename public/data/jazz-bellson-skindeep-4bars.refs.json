@@ -1,0 +1,14 @@
+[
+  {
+    "bars": [1, 4],
+    "drummer": "Louie Bellson",
+    "song": "Skin Deep",
+    "fidelity": "paraphrase",
+    "refs": [
+      "https://www.jazztimes.com/news/louie-bellson-rim-shots-double-bass-drums/",
+      "https://en.wikipedia.org/wiki/Louie_Bellson"
+    ],
+    "libraryId": "jazz-climax-02",
+    "note": "ダブルバスドラムの連続音を単一Kickの連続16分で近似し、その上でスネア/タムのアクセントとロールを重ねるSkin Deepの語法"
+  }
+]

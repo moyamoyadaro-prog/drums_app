@@ -1,0 +1,36 @@
+\title "Art Taylor 風 — 全拍バスドラと推進ライド（4小節）"
+\subtitle "swing / four-on-the-floor bass & driving ride / 中"
+\tempo 230
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.4 Kick.4 Kick.4 Kick.4 | // 1
+Kick.4 Kick.4 Kick.4 Kick.4 | // 2
+Kick.4 Kick.4 Kick.4 Kick.4 | // 3
+Kick.4 Kick.4 Kick.4 Kick.4 | // 4
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.4 Snare{ac}.8 r.8 r.4 Snare{ac}.4 | // 1
+r.4 Snare{ac}.8 r.8 r.4 Snare{ac}.4 | // 2
+r.4 Snare{ac}.8 r.8 r.4 Snare{ac}.4 | // 3
+Snare{ac}.8 r.8 Snare{ac}.8 r.8 Snare{ac}.4 r.4 | // 4
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4

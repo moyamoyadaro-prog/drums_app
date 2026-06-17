@@ -22,6 +22,55 @@
       ]
     },
     {
+      "title": "Billy Cobham 風 — トム周回の高速シングルストローク＋ダブルバス（4小節）",
+      "file": "fusion-cobham-singlestroke-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:30:06.337Z"
+    },
+    {
+      "title": "Peter Erskine 風 — 叙情的なフュージョン・ライドと旋律タム（4小節）",
+      "file": "fusion-erskine-lyrical-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:30:36.517Z"
+    },
+    {
+      "title": "Steve Gadd 風 — リニア（手足が重ならない）16分グルーヴ（4小節）",
+      "file": "fusion-gadd-linear-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:30:22.747Z"
+    },
+    {
+      "title": "Lenny White 風 — ファンクとジャズを橋渡すシンコペ・グルーヴ（4小節）",
+      "file": "fusion-white-funkfusion-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:30:12.971Z"
+    },
+    {
+      "title": "Rashied Ali 風 — 定常拍なしの多方向リズムの奔流（4小節）",
+      "file": "jazz-ali-multidirectional-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:26:09.749Z"
+    },
+    {
+      "title": "Louie Bellson 風 — 連続バスドラ上のハンド・ロール（4小節）",
+      "file": "jazz-bellson-skindeep-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:20:02.562Z",
+      "references": [
+        {
+          "bars": [1, 4],
+          "drummer": "Louie Bellson",
+          "song": "Skin Deep",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://www.jazztimes.com/news/louie-bellson-rim-shots-double-bass-drums/",
+            "https://en.wikipedia.org/wiki/Louie_Bellson"
+          ],
+          "libraryId": "jazz-climax-02",
+          "note": "ダブルバスドラムの連続音を単一Kickの連続16分で近似し、その上でスネア/タムのアクセントとロールを重ねるSkin Deepの語法"
+        }
+      ]
+    },
+    {
+      "title": "Han Bennink 風 — 行進・サーカス由来の爆発ルーディメンタル（4小節）",
+      "file": "jazz-bennink-parade-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:26:34.731Z"
+    },
+    {
       "title": "Art Blakey 風 4ビート — 三連アクセントとクレッシェンド・プレスロール（8小節）",
       "file": "jazz-blakey-pressroll-8bars.alphatex",
       "updatedAt": "2026-06-16T12:41:00.275Z",
@@ -69,6 +118,11 @@
       ]
     },
     {
+      "title": "Big Sid Catlett 風 — 主題・ロール急増・間・タム織り・弱奏解決（4小節）",
+      "file": "jazz-catlett-theme-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:19:31.943Z"
+    },
+    {
       "title": "Kenny Clarke 風 4ビート — ライド時間とドロッピング・ボム（8小節）",
       "file": "jazz-clarke-bombs-8bars.alphatex",
       "updatedAt": "2026-06-16T12:40:29.198Z",
@@ -107,6 +161,30 @@
       ]
     },
     {
+      "title": "Cozy Cole 風 — 8分タム・オスティナートから鋭いスネア三連（4小節）",
+      "file": "jazz-cole-topsy-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:19:49.703Z",
+      "references": [
+        {
+          "bars": [1, 4],
+          "drummer": "Cozy Cole",
+          "song": "Topsy (Pt. 2)",
+          "fidelity": "paraphrase",
+          "refs": [
+            "https://en.wikipedia.org/wiki/Cozy_Cole",
+            "https://www.moderndrummer.com/2009/12/william-cozy-cole/"
+          ],
+          "libraryId": "jazz-solo-theme-07",
+          "note": "単一タムの8分オスティナートで開始しタム周りを開く→鋭いスネア三連図形へ展開、というTopsyのソロ構造を近似"
+        }
+      ]
+    },
+    {
+      "title": "Andrew Cyrille 風 — 3対4のポリリズム（4小節）",
+      "file": "jazz-cyrille-polyrhythm-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:26:21.837Z"
+    },
+    {
       "title": "Elvin Jones 風 4ビート — キット周回の三連うねりと4対3（8小節）",
       "file": "jazz-elvin-rollingtriplets-8bars.alphatex",
       "updatedAt": "2026-06-16T12:47:11.566Z",
@@ -131,6 +209,11 @@
       "updatedAt": "2026-06-15T15:29:33.323Z"
     },
     {
+      "title": "Sonny Greer 風 — マレット風タムの異国色とゴング的クラッシュ（4小節）",
+      "file": "jazz-greer-colors-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:19:41.673Z"
+    },
+    {
       "title": "Roy Haynes 風 4ビート — スナップ＆クラックル（8小節）",
       "file": "jazz-haynes-snapcrackle-8bars.alphatex",
       "updatedAt": "2026-06-16T12:41:19.277Z",
@@ -148,6 +231,11 @@
           "note": "ライドを割ってゴーストの crackle とリム/スネアの snap、不意のバスドラを散らす"
         }
       ]
+    },
+    {
+      "title": "Billy Higgins 風 — 弾むアップビート・ライドと教会的バックビート（4小節）",
+      "file": "jazz-higgins-tipping-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:22:34.917Z"
     },
     {
       "title": "ジャズ・レジェンド5傑風 — 装置を巡るソロ（10小節）",
@@ -217,6 +305,11 @@
       ]
     },
     {
+      "title": "Mel Lewis 風 — タイムを割る変化ライドと不意のボム（4小節）",
+      "file": "jazz-lewis-brokentime-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:22:57.342Z"
+    },
+    {
       "title": "Shelly Manne 風 4ビート — 旋律的タムのテーマと変奏（8小節）",
       "file": "jazz-manne-melodictoms-8bars.alphatex",
       "updatedAt": "2026-06-16T12:46:36.735Z",
@@ -234,6 +327,16 @@
           "note": "タムを歌う旋律楽器として扱い、テーマを提示して変奏する"
         }
       ]
+    },
+    {
+      "title": "Paul Motian 風 — 浮遊するルバート的ブロークン・ライド（4小節）",
+      "file": "jazz-motian-floating-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:26:26.572Z"
+    },
+    {
+      "title": "Sunny Murray 風 — 拍を溶かす連続ウォッシュと不規則スネア（4小節）",
+      "file": "jazz-murray-pulsewash-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:25:58.124Z"
     },
     {
       "title": "Jo Jones 風 4ビート — ハイハット・リードの流れるスイング（8小節）",
@@ -285,6 +388,11 @@
       ]
     },
     {
+      "title": "Ben Riley 風 — 澄んだ控えめコンピング（4小節）",
+      "file": "jazz-riley-clarity-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:22:51.260Z"
+    },
+    {
       "title": "Max Roach 風 4ビート — スネア⇄タムのコール&レスポンス（8小節）",
       "file": "jazz-roach-callresponse-8bars.alphatex",
       "updatedAt": "2026-06-16T12:47:51.630Z",
@@ -326,6 +434,16 @@
       ]
     },
     {
+      "title": "Grady Tate 風 — オルガントリオのソウルジャズ・グルーヴ（4小節）",
+      "file": "jazz-tate-souljazz-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:23:03.399Z"
+    },
+    {
+      "title": "Art Taylor 風 — 全拍バスドラと推進ライド（4小節）",
+      "file": "jazz-taylor-driving-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:22:42.397Z"
+    },
+    {
       "title": "Max Roach 風 4ビート・トレード ドラムソロ（16小節）",
       "file": "jazz-trade-roach-16bars.alphatex",
       "updatedAt": "2026-06-16T09:42:24.490Z",
@@ -364,6 +482,16 @@
           "note": "モチーフの再提示（変位）"
         }
       ]
+    },
+    {
+      "title": "Jeff Tain Watts 風 — パワー・スウィングと3対4のバス＋変位スネア（4小節）",
+      "file": "jazz-watts-polyrhythm-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:30:47.914Z"
+    },
+    {
+      "title": "Chick Webb 風 — バンドを蹴り出す爆発ブレイク（4小節）",
+      "file": "jazz-webb-bandbreak-4bars.alphatex",
+      "updatedAt": "2026-06-17T23:19:25.205Z"
     },
     {
       "title": "サンプル・ドラムソロ",

@@ -1,0 +1,29 @@
+\title "Billy Higgins 風 — 弾むアップビート・ライドと教会的バックビート（4小節）"
+\subtitle "swing / tipping ride & church backbeat / 中"
+\tempo 200
+.
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+\articulation SideStick 37
+r.4 SideStick{g}.4 r.4 SideStick.4 | // 1
+r.4 SideStick{g}.4 r.4 SideStick.4 | // 2
+r.4 SideStick{g}.4 r.4 SideStick.4 | // 3
+r.4 SideStick{g}.4 SideStick{g}.8 r.8 SideStick.4 | // 4
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride{ac}.8{tu 3} | // 4

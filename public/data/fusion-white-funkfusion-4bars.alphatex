@@ -1,0 +1,28 @@
+\title "Lenny White 風 — ファンクとジャズを橋渡すシンコペ・グルーヴ（4小節）"
+\subtitle "fusion / jazz-funk syncopation / 中"
+\tempo 130
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.8 r.8 r.8 Kick.8 Kick.8 r.8 r.4 | // 1
+Kick.8 r.8 r.8 Kick.8 Kick.8 r.8 r.4 | // 2
+Kick.8 r.8 r.8 Kick.8 Kick.8 r.8 r.4 | // 3
+Kick.8 r.8 r.8 Kick.8 r.2 | // 4
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.8 Snare{g}.8 Snare{ac}.4 r.8 Snare{g}.8 Snare{ac}.4 | // 1
+r.8 Snare{g}.8 Snare{ac}.4 r.8 Snare{g}.8 Snare{ac}.4 | // 2
+r.8 Snare{g}.8 Snare{ac}.4 r.8 Snare{g}.8 Snare{ac}.4 | // 3
+Snare{ac}.8 Snare.8 Snare.8 Snare.8 Snare.16 Snare.16 Snare.16 Snare.16 r.4 | // 4 fill
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 | // 1
+HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 | // 2
+HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 | // 3
+HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 | // 4

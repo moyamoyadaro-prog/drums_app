@@ -1,0 +1,39 @@
+\title "Sonny Greer 風 — マレット風タムの異国色とゴング的クラッシュ（4小節）"
+\subtitle "latin / colour & texture / 中"
+\tempo 150
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.4 r.8 Kick.8 r.4 Kick.4 | // 1 latin ostinato
+Kick.4 r.8 Kick.8 r.4 Kick.4 | // 2
+Kick.4 r.8 Kick.8 r.4 Kick.4 | // 3
+Kick.4 r.8 Kick.8 r.4 Kick.4 | // 4
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+FloorTom.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | // 1 exotic theme
+MidTom.4 r.4 FloorTom.8 MidTom.8 HiTom.4 | // 2 variation
+FloorTom.4 r.4 HiTom.8 MidTom.8 FloorTom.4 | // 3 restate
+HiTom.8 MidTom.8 FloorTom.8 MidTom.8 HiTom.4 r.4 | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+Crash.4 r.2 r.4 | // 1 gong-like swell
+r.1 | // 2
+Crash.4 r.2 r.4 | // 3
+r.2 r.4 Crash.4 | // 4

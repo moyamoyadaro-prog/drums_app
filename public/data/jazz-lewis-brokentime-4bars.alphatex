@@ -1,0 +1,28 @@
+\title "Mel Lewis 風 — タイムを割る変化ライドと不意のボム（4小節）"
+\subtitle "swing / broken time & bombs / 中"
+\tempo 180
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+r.4 r.4 r.8 Kick.8 r.4 | // 1
+r.2 r.8 Kick.8 r.4 | // 2
+r.4 r.4 r.8 Kick.8 r.4 | // 3
+r.4 r.8 Kick.8 r.2 | // 4
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 r.8{tu 3} Ride.8{tu 3} r.8{tu 3} | // 1
+Ride.4 r.8{tu 3} Ride.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 r.8{tu 3} Ride.8{tu 3} r.8{tu 3} | // 3
+Ride.4 r.8{tu 3} Ride.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4

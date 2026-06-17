@@ -1,0 +1,46 @@
+\title "Jeff Tain Watts 風 — パワー・スウィングと3対4のバス＋変位スネア（4小節）"
+\subtitle "jazz / polyrhythm & metric modulation / 難"
+\tempo 220
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 1 the "3"
+Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 2
+Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 3
+Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} Kick.8{tu 3} r.8{tu 3} r.8{tu 3} r.8{tu 3} | // 4
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.4 Snare{ac}.4 r.4 Snare{ac}.4 | // 1 backbeat
+r.4 r.8 Snare{ac}.8 r.4 Snare{ac}.4 | // 2 displaced
+r.4 Snare{ac}.4 r.4 Snare{ac}.4 | // 3
+r.4 Snare{ac}.4 r.2 | // 4 lead to toms
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4 r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.2 HiTom{ac}.8 MidTom{ac}.8 FloorTom{ac}.4 | // 4 answering toms
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4

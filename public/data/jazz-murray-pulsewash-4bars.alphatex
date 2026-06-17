@@ -1,0 +1,28 @@
+\title "Sunny Murray 風 — 拍を溶かす連続ウォッシュと不規則スネア（4小節）"
+\subtitle "free / pulse dissolution / 難"
+\tempo 200
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+r.2 Kick.4 r.4 | // 1
+r.1 | // 2
+Kick.4 r.2 r.4 | // 3
+r.2 r.4 Kick.4 | // 4
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+r.4 Snare.16 Snare.16 Snare.16 Snare.16 r.4 r.4 | // 1
+Snare.16 Snare.16 Snare.16 Snare.16 r.4 r.4 r.4 | // 2
+r.2 r.4 Snare.16 Snare.16 Snare.16 Snare.16 | // 3
+r.4 r.4 Snare.16 Snare.16 Snare.16 Snare.16 r.4 | // 4
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Ride 51
+Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 | // 1
+Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 | // 2
+Ride{ac}.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 | // 3
+Ride.8 Ride.8 Ride{ac}.8 Ride.8 Ride{ac}.8 Ride.8 Ride.8 Ride{ac}.8 | // 4
