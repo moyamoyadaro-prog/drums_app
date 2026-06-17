@@ -313,6 +313,13 @@ button:disabled {
 }
 
 @media (max-width: 720px) {
+  /* On phones, let the whole page scroll instead of cramming everything into one
+     locked viewport (which squeezed the score into a tiny strip at the bottom). */
+  html,
+  body {
+    height: auto;
+  }
+
   .layout {
     grid-template-columns: 1fr;
   }
@@ -321,5 +328,34 @@ button:disabled {
     border-right: none;
     border-bottom: 1px solid var(--border);
     max-height: 35vh;
+  }
+
+  /* Put the score right after the transport, ahead of the secondary panels
+     (mixer / play-along / record), so it dominates the first screen. */
+  .transport {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--bg);
+    order: 0;
+  }
+  .at-wrap {
+    order: 1;
+    /* Take the score's natural height and let the page scroll through it,
+       rather than being a sliver constrained by flex:1. */
+    flex: none;
+    min-height: 70vh;
+  }
+  .mixer {
+    order: 2;
+  }
+  .refs {
+    order: 3;
+  }
+  .playalong {
+    order: 4;
+  }
+  .record {
+    order: 5;
   }
 }

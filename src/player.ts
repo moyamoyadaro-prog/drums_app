@@ -95,7 +95,10 @@ export class DrumPlayer {
   }
 
   loadTex(tex: string): void {
-    this.api.tex(tex);
+    // Render every track: a drum solo is split into Kick/Snare/HiHat/Toms/Cymbals
+    // tracks, and `tex()` would otherwise show only the first one. 'all' renders
+    // the whole kit stacked so the score matches the per-instrument mixer.
+    this.api.tex(tex, 'all');
   }
 
   playPause(): void {
