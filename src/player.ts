@@ -40,6 +40,13 @@ export class DrumPlayer {
       core: {
         tex: true,
         fontDirectory: `${base}font/`,
+        // Render the whole score up front. With lazy loading (the default),
+        // alphaTab only paints partials it judges visible within `scrollElement`.
+        // On mobile the *page* scrolls while `#at-wrap` itself does not, so some
+        // devices decide nothing is visible and paint no bars at all — the score
+        // loads ("準備完了") but stays blank. Solos here are short, so eager
+        // rendering is cheap and reliable.
+        enableLazyLoading: false,
       },
       player: {
         enablePlayer: true,
