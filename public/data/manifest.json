@@ -1,9 +1,14 @@
 {
   "items": [
     {
+      "title": "物語るソロ — 12小節ブルース（提示→展開→クライマックス→着地）",
+      "file": "demo-architecture-blues-12bars.alphatex",
+      "updatedAt": "2026-06-18T23:49:46.985Z"
+    },
+    {
       "title": "表現記法デモ（フラム／ロール／クレッシェンド）",
       "file": "demo-expressivity-4bars.alphatex",
-      "updatedAt": "2026-06-18T23:28:58.991Z"
+      "updatedAt": "2026-06-18T23:30:20.433Z"
     },
     {
       "title": "Nate Smith 風 ファンク — メトリック・スキップとゴースト絨毯（8小節, 4/4↔9/8）",

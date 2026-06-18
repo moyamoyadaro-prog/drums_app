@@ -1,0 +1,94 @@
+\title "物語るソロ — 12小節ブルース（提示→展開→クライマックス→着地）"
+\subtitle "swing / 12-bar blues / motif development demo / 中〜難"
+\tempo 140
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+// === 提示 P1 (bars 1-4): feather/sparse, soft bombs ===
+r.2 r.4 Kick.4{dy p} | // 1
+Kick.4{dy p} r.2 r.4 | // 2
+r.1 | // 3
+r.2 r.4 Kick.4{dy mp} | // 4
+// === 展開 P2 (bars 5-8): more motion under the fragments ===
+Kick.4{dy mp} r.4 Kick.4 r.4 | // 5
+Kick.4 r.4 Kick.4 r.4 | // 6
+r.1 | // 7
+Kick.4{dy mf} r.4 Kick.4 r.4 | // 8
+// === クライマックス→着地 P3 (bars 9-12): driving quarters, big landing ===
+Kick.4{dy f} Kick.4 Kick.4 Kick.4 | // 9
+Kick.4{dy f} Kick.4 Kick.4 Kick.4 | // 10
+Kick.4{dy ff} Kick.4 Kick.4 Kick.4 | // 11
+r.2 Kick.4{dy ff} r.4 | // 12
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+// === 提示 P1: state motif M = (3連8分×3 → 4分) "da-da-da DAH" ===
+Snare.8{tu 3 dy mf} Snare.8{tu 3} Snare.8{tu 3} Snare.4 r.2 | // 1  M (call, beats1-2)
+r.2 Snare.8{tu 3 dy mf} Snare.8{tu 3} Snare.8{tu 3} Snare.4 | // 2  M displaced to beats3-4 (response)
+Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 3  M + fragment(tail)
+Snare.8{tu 3 dy mf} Snare.8{tu 3} Snare.8{tu 3} Snare.4 r.4 Snare{gr}.8 Snare.4 | // 4  M + flam cadence
+// === 展開 P2: fragment / displace / orchestrate to toms ===
+Snare.8{tu 3 dy f} Snare.8{tu 3} Snare.8{tu 3} r.4 Snare.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.4 | // 5  fragment sequenced
+r.2 Snare{g}.4{dy mp} r.4 | // 6  snare yields to toms (ghost only)
+Snare.8{tu 3 dy f} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} r.8{tu 3} Snare.8{tu 3} | // 7  displaced triplet stream
+Snare.2{tp 16 dy mf} Snare.2{tp 16 cre} | // 8  press roll, crescendo into climax
+// === クライマックス→着地 P3 ===
+Snare{ac}.8{tu 3 dy f} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} Snare{ac}.8{tu 3} Snare.8{tu 3} Snare.8{tu 3} | // 9  accents mark M-pulse over triplet bed
+Snare.1{tp 32 cre} | // 10  buzz roll crescendo (peak build)
+Snare.4{tu 3 dy ff} Snare.4{tu 3} Snare.4{tu 3} Snare.2 | // 11  M AUGMENTED (each value doubled) = climax
+Snare.8{tu 3 dy mf} Snare.8{tu 3} Snare.8{tu 3} Snare.4 Snare{gr}.8 Snare{ac}.4{dy ff} r.4 | // 12  M restated (bookend) + flam landing
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+r.4 HH.4{dy p} r.4 HH.4 | // 1
+r.4 HH.4 r.4 HH.4 | // 2
+r.4 HH.4 r.4 HH.4 | // 3
+r.4 HH.4 r.4 HH.4 | // 4
+r.4 HH.4 r.4 HH.4 | // 5
+r.4 HH.4 r.4 HH.4 | // 6
+r.4 HH.4 r.4 HH.4 | // 7
+r.4 HH.4 r.4 HH.4 | // 8
+r.4 HH.4 r.4 HH.4 | // 9
+r.4 HH.4 r.4 HH.4 | // 10
+r.4 HH.4 r.4 HH.4 | // 11
+r.1 | // 12
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation MidTom 45
+\articulation FloorTom 41
+r.1 | // 1
+r.1 | // 2
+r.1 | // 3
+r.1 | // 4
+r.1 | // 5
+r.4 HiTom.8{tu 3 dy f} HiTom.8{tu 3} MidTom.8{tu 3} r.4 HiTom.8{tu 3} MidTom.8{tu 3} FloorTom.8{tu 3} | // 6  M-fragment orchestrated onto toms
+r.2 r.4 HiTom.8{tu 3 dy f} MidTom.8{tu 3} FloorTom.8{tu 3} | // 7  tom answer (kit transposition)
+r.1 | // 8
+r.1 | // 9
+r.1 | // 10
+FloorTom.4{tu 3 dy ff} FloorTom.4{tu 3} FloorTom.4{tu 3} r.2 | // 11  floor toms double the augmented motif (kit-wide climax)
+r.1 | // 12
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+\articulation Ride 51
+// ride time (spang-a-lang) is the steady thread; crash marks phrase heads + climax
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 1
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 2
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 3
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 4
+Crash.4{dy f} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 5  crash on P2 head
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 6
+Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 7
+r.1 | // 8  drop out under the snare roll
+Crash.4{dy f} Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} Ride.4 Ride.8{tu 3} r.8{tu 3} Ride.8{tu 3} | // 9  crash on P3 head
+r.1 | // 10  drop out under the buzz roll
+Crash.4{dy ff} Ride.4 Ride.4 Ride.4 | // 11  climax crash
+r.2 Crash.2{dy ff} | // 12  final crash lands with the flam (beat 3)
