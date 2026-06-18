@@ -60,6 +60,24 @@ function parseScore(file, tex) {
   }
 }
 
+/**
+ * Notated duration of a bar = the longest voice's sum of *display* durations.
+ * We deliberately use displayDuration (not bar.calculateDuration(), which sums
+ * playback duration) so grace notes / flams (`{gr}`) are counted as the zero
+ * notated value they are. In playback a grace beat steals ~120 ticks from a
+ * neighbour, which makes calculateDuration() drift ±120 around the bar length
+ * depending on the flam's position — displayDuration stays exact.
+ */
+function notatedDuration(bar) {
+  let longest = 0;
+  for (const voice of bar.voices) {
+    let sum = 0;
+    for (const beat of voice.beats) sum += beat.displayDuration;
+    if (sum > longest) longest = sum;
+  }
+  return longest;
+}
+
 /** Checks bar durations against their time signature and cross-track alignment. */
 function checkBars(file, score) {
   let expectedBarCount = null;
@@ -73,7 +91,7 @@ function checkBars(file, score) {
         );
       }
       staff.bars.forEach((bar, index) => {
-        const actual = bar.calculateDuration();
+        const actual = notatedDuration(bar);
         const expected = bar.masterBar.calculateDuration();
         if (actual !== expected) {
           errors.push(

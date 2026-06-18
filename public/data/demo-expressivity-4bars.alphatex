@@ -1,0 +1,49 @@
+\title "表現記法デモ（フラム／ロール／クレッシェンド）"
+\subtitle "alphaTex 表現力テスト — LEARNING_BACKLOG G"
+\tempo 120
+.
+\track "Kick"
+\instrument percussion
+\clef neutral
+\articulation Kick 36
+Kick.4 r.4 Kick.4 r.4 |
+Kick.4 r.4 r.4 Kick.8 Kick.8 |
+r.2 Kick.4 Kick.4 |
+Kick.4 r.4 r.2 |
+\track "Snare"
+\instrument percussion
+\clef neutral
+\articulation Snare 38
+// bar1: フラムアクセント。1拍目（前に音が無い＝旧 calculateDuration が破綻する位置）と
+// 2・4拍目に装飾音 {gr} を置く。装飾音は記譜音価ゼロなので本体だけで 4/4 を満たす。
+Snare{gr ac}.8 Snare.4 Snare{gr}.8 Snare.4 r.4 Snare{gr}.8 Snare.4 |
+// bar2: 16分シングルストロークを段階クレッシェンド（{dy ...} を刻みで上げる）。
+Snare.16{dy pp} Snare.16 Snare.16 Snare.16 Snare.16{dy mp} Snare.16 Snare.16 Snare.16 Snare.16{dy mf} Snare.16 Snare.16 Snare.16 Snare.16{dy f} Snare.16 Snare.16 Snare.16 |
+// bar3: バズロール（{tp 16}=トレモロ）＋ヘアピン（{cre}=クレッシェンド）→ アクセント着地。
+Snare.2{tp 16 cre} Snare{ac}.4{dy ff} Snare{ac}.4{dy ff} |
+r.1 |
+\track "HiHat"
+\instrument percussion
+\clef neutral
+\articulation HH 42
+HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 HH.8 |
+r.1 |
+r.1 |
+r.1 |
+\track "Toms"
+\instrument percussion
+\clef neutral
+\articulation HiTom 48
+\articulation FloorTom 41
+r.1 |
+r.1 |
+r.2 HiTom{ac}.4 FloorTom{ac}.4 |
+r.1 |
+\track "Cymbals"
+\instrument percussion
+\clef neutral
+\articulation Crash 49
+r.1 |
+r.1 |
+r.1 |
+Crash{ac}.4 r.4 r.2 |
